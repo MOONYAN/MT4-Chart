@@ -1,10 +1,11 @@
 <chart>
-id=131594215772620496
-symbol=AUDJPY_
-period=60
-leftpos=11418
+id=131594215888087413
+comment=Only Run KRC Broker
+symbol=NZDJPY_
+period=240
+leftpos=3420
 digits=3
-scale=4
+scale=8
 graph=1
 fore=0
 grid=0
@@ -12,7 +13,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=0
+one_click=1
 one_click_btn=1
 askline=0
 days=1
@@ -20,9 +21,9 @@ descriptions=1
 shift_size=20
 fixed_pos=0
 window_left=0
-window_top=0
+window_top=298
 window_right=638
-window_bottom=298
+window_bottom=596
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -37,7 +38,7 @@ askline_color=255
 stops_color=255
 
 <window>
-height=130
+height=148
 fixed_height=0
 <indicator>
 name=main
@@ -259,9 +260,9 @@ ray=0
 </object>
 <object>
 type=2
-object_name=Trendline 47121
+object_name=Trendline 46897
 period_flags=0
-create_time=1515173905
+create_time=1515173681
 color=16711680
 style=0
 weight=3
@@ -270,17 +271,17 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1465862400
-value_0=71.270848
-time_1=1510444800
-value_1=83.915371
+time_0=1462147200
+value_0=67.484410
+time_1=1516406400
+value_1=76.920435
 ray=1
 </object>
 <object>
 type=2
-object_name=Trendline 47130
+object_name=Trendline 46905
 period_flags=0
-create_time=1515173914
+create_time=1515173689
 color=16711680
 style=0
 weight=3
@@ -289,17 +290,17 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1409184000
-value_0=103.959629
-time_1=1509494400
-value_1=89.943693
+time_0=1415318400
+value_0=94.450870
+time_1=1532908800
+value_1=79.335342
 ray=1
 </object>
 <object>
 type=1
-object_name=Horizontal Line 47143
+object_name=Horizontal Line 46939
 period_flags=0
-create_time=1515173927
+create_time=1515173723
 color=65535
 style=0
 weight=3
@@ -308,13 +309,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=85.647420
+value_0=74.249239
 </object>
 <object>
 type=1
-object_name=Horizontal Line 47191
+object_name=Horizontal Line 46958
 period_flags=0
-create_time=1515173975
+create_time=1515173742
 color=65535
 style=0
 weight=3
@@ -323,13 +324,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=96.770954
+value_0=78.364239
 </object>
 <object>
 type=1
-object_name=Horizontal Line 47210
+object_name=Horizontal Line 46982
 period_flags=0
-create_time=1515173994
+create_time=1515173766
 color=65535
 style=0
 weight=3
@@ -338,13 +339,28 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=81.839364
+value_0=81.316304
+</object>
+<object>
+type=1
+object_name=Horizontal Line 47004
+period_flags=0
+create_time=1515173788
+color=65535
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=84.894565
 </object>
 <object>
 type=2
-object_name=Trendline 47249
+object_name=Trendline 47061
 period_flags=0
-create_time=1515174033
+create_time=1515173845
 color=16711680
 style=0
 weight=3
@@ -353,17 +369,17 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1505404800
-value_0=90.649399
-time_1=1516708800
-value_1=84.529523
+time_0=1500508800
+value_0=84.196180
+time_1=1509710400
+value_1=81.595963
 ray=1
 </object>
 <object>
 type=5
-object_name=Channel 357
+object_name=Channel 2843
 period_flags=0
-create_time=1515389285
+create_time=1515457307
 color=16777215
 style=0
 weight=3
@@ -372,19 +388,19 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1466294400
-value_0=74.470115
-time_1=1515283200
-value_1=85.747852
-time_2=1471737600
-value_2=83.775954
-ray=0
+time_0=1480809600
+value_0=83.461081
+time_1=1507420800
+value_1=83.461081
+time_2=1482624000
+value_2=76.352952
+ray=1
 </object>
 <object>
-type=1
-object_name=Horizontal Line 47168
+type=5
+object_name=Channel 10241
 period_flags=0
-create_time=1515173952
+create_time=1515464705
 color=65535
 style=0
 weight=3
@@ -393,28 +409,19 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=90.873014
+time_0=1512950400
+value_0=77.625000
+time_1=1515110400
+value_1=79.911414
+time_2=1512604800
+value_2=78.547630
+ray=1
 </object>
 <object>
 type=1
-object_name=Horizontal Line 47183
+object_name=Horizontal Line 30021
 period_flags=0
-create_time=1515173967
-color=65535
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-value_0=74.323463
-</object>
-<object>
-type=1
-object_name=Horizontal Line 2265
-period_flags=0
-create_time=1515456729
+create_time=1515550021
 color=16777215
 style=0
 weight=3
@@ -423,43 +430,7 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=88.733428
-</object>
-<object>
-type=1
-object_name=Horizontal Line 8984
-period_flags=0
-create_time=1515463448
-color=16777215
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-value_0=88.454476
-</object>
-<object>
-type=5
-object_name=Channel 46265
-period_flags=0
-create_time=1515566265
-color=65535
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1515458700
-value_0=88.848000
-time_1=1515646800
-value_1=87.160000
-time_2=1515448800
-value_2=88.514184
-ray=0
+value_0=80.344006
 </object>
 </indicator>
 <indicator>
@@ -644,7 +615,7 @@ show_data=1
 </window>
 
 <window>
-height=20
+height=27
 fixed_height=0
 <indicator>
 name=MACD
@@ -662,6 +633,36 @@ levels_color=65535
 levels_style=0
 levels_weight=2
 level_0=0.00000000
+period_flags=0
+show_data=1
+</indicator>
+</window>
+
+<window>
+height=25
+fixed_height=0
+<indicator>
+name=Custom Indicator
+<expert>
+name=RSI
+flags=339
+window_num=2
+<inputs>
+InpRSIPeriod=14
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=16748574
+style_0=0
+weight_0=0
+min=0.00000000
+max=100.00000000
+levels_color=12632256
+levels_style=2
+levels_weight=1
+level_0=30.00000000
+level_1=70.00000000
 period_flags=0
 show_data=1
 </indicator>
