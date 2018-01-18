@@ -1,10 +1,10 @@
 <chart>
 id=131594367643098594
 symbol=GBPNZD_
-period=5
-leftpos=3201
+period=15
+leftpos=2166
 digits=5
-scale=8
+scale=32
 graph=1
 fore=0
 grid=0
@@ -510,6 +510,21 @@ value_0=1.903520
 time_1=1516209402
 value_1=1.893510
 ray=0
+</object>
+<object>
+type=1
+object_name=Horizontal Line 39218
+period_flags=0
+create_time=1516280114
+color=16777215
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=1.904310
 </object>
 </indicator>
 <indicator>

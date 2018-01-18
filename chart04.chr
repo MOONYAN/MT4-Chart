@@ -1,10 +1,10 @@
 <chart>
 id=131594338864464977
 symbol=GBPAUD_
-period=240
-leftpos=2047
+period=5
+leftpos=3287
 digits=5
-scale=32
+scale=16
 graph=1
 fore=0
 grid=0
@@ -12,7 +12,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1
@@ -152,10 +152,10 @@ hidden=0
 zorder=0
 time_0=1515988800
 value_0=1.727024
-time_1=1516312800
-value_1=1.729658
-time_2=1515988800
-value_2=1.734353
+time_1=1516305600
+value_1=1.729898
+time_2=1516003200
+value_2=1.734651
 ray=0
 </object>
 <object>

@@ -1,10 +1,10 @@
 <chart>
 id=131594350398842028
 symbol=XAUUSD_
-period=15
-leftpos=2183
+period=5
+leftpos=3102
 digits=2
-scale=8
+scale=4
 graph=1
 fore=0
 grid=0

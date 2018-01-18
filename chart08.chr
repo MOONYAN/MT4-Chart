@@ -2,7 +2,7 @@
 id=131607230683270018
 symbol=GBPJPY_
 period=5
-leftpos=3144
+leftpos=3201
 digits=3
 scale=4
 graph=1
@@ -12,7 +12,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1

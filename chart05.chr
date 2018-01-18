@@ -1,10 +1,10 @@
 <chart>
 id=131594367643098593
 symbol=GBPUSD_
-period=1440
-leftpos=1994
+period=5
+leftpos=2474
 digits=5
-scale=8
+scale=2
 graph=1
 fore=0
 grid=0
