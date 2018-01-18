@@ -1,11 +1,10 @@
 <chart>
 id=131594350398842028
-comment=Only Run KRC Broker
 symbol=XAUUSD_
-period=5
-leftpos=2569
+period=15
+leftpos=2183
 digits=2
-scale=1
+scale=8
 graph=1
 fore=0
 grid=0
@@ -13,17 +12,17 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=0
+one_click=1
 one_click_btn=1
 askline=0
 days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=638
-window_top=596
-window_right=1276
-window_bottom=894
+window_left=0
+window_top=0
+window_right=638
+window_bottom=245
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -38,7 +37,7 @@ askline_color=255
 stops_color=255
 
 <window>
-height=148
+height=141
 fixed_height=0
 <indicator>
 name=main
@@ -469,7 +468,7 @@ show_data=1
 </window>
 
 <window>
-height=27
+height=34
 fixed_height=0
 <indicator>
 name=MACD

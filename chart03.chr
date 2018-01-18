@@ -1,11 +1,10 @@
 <chart>
 id=131594215772620496
-comment=Only Run KRC Broker
 symbol=AUDJPY_
-period=5
-leftpos=2455
+period=240
+leftpos=2023
 digits=3
-scale=8
+scale=16
 graph=1
 fore=0
 grid=0
@@ -21,9 +20,9 @@ descriptions=1
 shift_size=20
 fixed_pos=0
 window_left=0
-window_top=0
+window_top=490
 window_right=638
-window_bottom=298
+window_bottom=735
 window_type=1
 background_color=0
 foreground_color=16777215

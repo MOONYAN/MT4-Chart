@@ -1,11 +1,10 @@
 <chart>
 id=131594262742984712
-comment=Only Run KRC Broker
 symbol=GBPJPY_
 period=5
-leftpos=3111
+leftpos=3071
 digits=3
-scale=32
+scale=8
 graph=1
 fore=0
 grid=0
@@ -20,11 +19,11 @@ days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=0
-window_top=596
-window_right=638
-window_bottom=894
-window_type=1
+window_left=638
+window_top=490
+window_right=1276
+window_bottom=735
+window_type=3
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -521,27 +520,6 @@ ray=0
 </object>
 <object>
 type=5
-object_name=Channel 17026
-period_flags=0
-create_time=1516061314
-color=16777215
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1507075200
-value_0=147.159335
-time_1=1512259200
-value_1=148.035319
-time_2=1507075200
-value_2=150.991764
-ray=0
-</object>
-<object>
-type=5
 object_name=Channel 17142
 period_flags=0
 create_time=1516061430
@@ -583,40 +561,6 @@ value_2=152.862388
 ray=0
 </object>
 <object>
-type=1
-object_name=Horizontal Line 59903
-period_flags=0
-create_time=1516169727
-color=16777215
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-value_0=152.103677
-</object>
-<object>
-type=2
-object_name=Trendline 60280
-period_flags=0
-create_time=1516170104
-color=42495
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1516044900
-value_0=153.233012
-time_1=1516197000
-value_1=152.222239
-ray=1
-</object>
-<object>
 type=5
 object_name=Channel 63556
 period_flags=0
@@ -638,11 +582,41 @@ value_2=152.731901
 ray=0
 </object>
 <object>
-type=2
-object_name=Trendline 63646
+type=1
+object_name=Horizontal Line 892
 period_flags=0
-create_time=1516173470
-color=42495
+create_time=1516241788
+color=16777215
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=153.825767
+</object>
+<object>
+type=1
+object_name=Horizontal Line 7811
+period_flags=0
+create_time=1516248707
+color=16777215
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=152.833151
+</object>
+<object>
+type=5
+object_name=Channel 15467
+period_flags=0
+create_time=1516256363
+color=16777215
 style=0
 weight=3
 background=0
@@ -650,17 +624,19 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1516146000
-value_0=153.057641
-time_1=1516183500
-value_1=152.547852
-ray=1
+time_0=1515686400
+value_0=150.263000
+time_1=1516435200
+value_1=154.131265
+time_2=1515657600
+value_2=151.766539
+ray=0
 </object>
 <object>
 type=1
-object_name=Horizontal Line 64631
+object_name=Horizontal Line 18031
 period_flags=0
-create_time=1516174455
+create_time=1516258927
 color=16777215
 style=0
 weight=3
@@ -669,13 +645,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=152.668222
+value_0=153.998353
 </object>
 <object>
 type=1
-object_name=Horizontal Line 5355
+object_name=Horizontal Line 19046
 period_flags=0
-create_time=1516180715
+create_time=1516259942
 color=16777215
 style=0
 weight=3
@@ -684,22 +660,7 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=152.822000
-</object>
-<object>
-type=1
-object_name=Horizontal Line 5617
-period_flags=0
-create_time=1516180977
-color=16777215
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-value_0=153.395986
+value_0=153.659864
 </object>
 </indicator>
 <indicator>
