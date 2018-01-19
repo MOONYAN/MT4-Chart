@@ -1,10 +1,10 @@
 <chart>
 id=131594215888087413
 symbol=NZDJPY_
-period=5
-leftpos=3258
+period=30
+leftpos=1689
 digits=3
-scale=8
+scale=1
 graph=1
 fore=0
 grid=0

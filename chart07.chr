@@ -2,9 +2,9 @@
 id=131594367643098594
 symbol=GBPNZD_
 period=15
-leftpos=2166
+leftpos=2153
 digits=5
-scale=32
+scale=4
 graph=1
 fore=0
 grid=0
@@ -242,27 +242,6 @@ value_0=1.895716
 </object>
 <object>
 type=5
-object_name=Channel 11811
-period_flags=0
-create_time=1516187171
-color=16777215
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1516174200
-value_0=1.903120
-time_1=1516190400
-value_1=1.894760
-time_2=1516173600
-value_2=1.899684
-ray=0
-</object>
-<object>
-type=5
 object_name=Channel 12479
 period_flags=0
 create_time=1516187839
@@ -276,10 +255,10 @@ hidden=0
 zorder=0
 time_0=1516006800
 value_0=1.884690
-time_1=1516298400
-value_1=1.900094
-time_2=1516003200
-value_2=1.892150
+time_1=1516392000
+value_1=1.901262
+time_2=1516006800
+value_2=1.897249
 ray=0
 </object>
 <object>

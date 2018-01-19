@@ -2,9 +2,9 @@
 id=131594338864464977
 symbol=GBPAUD_
 period=5
-leftpos=3287
+leftpos=3121
 digits=5
-scale=16
+scale=1
 graph=1
 fore=0
 grid=0
@@ -152,10 +152,10 @@ hidden=0
 zorder=0
 time_0=1515988800
 value_0=1.727024
-time_1=1516305600
-value_1=1.729898
-time_2=1516003200
-value_2=1.734651
+time_1=1516348800
+value_1=1.730610
+time_2=1516017600
+value_2=1.736116
 ray=0
 </object>
 <object>

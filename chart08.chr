@@ -1,10 +1,11 @@
 <chart>
-id=131607230683270018
-symbol=GBPJPY_
+id=131607288631246306
+comment=Only Run KRC Broker
+symbol=USDCHF_
 period=5
-leftpos=3201
-digits=3
-scale=4
+leftpos=1962
+digits=5
+scale=1
 graph=1
 fore=0
 grid=0
@@ -12,7 +13,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=0
+one_click=1
 one_click_btn=1
 askline=0
 days=1
@@ -20,9 +21,9 @@ descriptions=1
 shift_size=20
 fixed_pos=0
 window_left=1276
-window_top=183
+window_top=366
 window_right=1914
-window_bottom=366
+window_bottom=549
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -41,6 +42,42 @@ height=148
 fixed_height=0
 <indicator>
 name=main
+<object>
+type=1
+object_name=Horizontal Line 14408
+period_flags=0
+create_time=1516255304
+color=65535
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=0.963700
+</object>
+<object>
+type=5
+object_name=Channel 14911
+period_flags=0
+create_time=1516255807
+color=65535
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1512518400
+value_0=0.997907
+time_1=1518134400
+value_1=0.968726
+time_2=1512691200
+value_2=0.980269
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -54,7 +91,7 @@ show_data=1
 </indicator>
 <indicator>
 name=Bollinger Bands
-period=22
+period=20
 shift=0
 deviations=2.000000
 apply=0
@@ -218,54 +255,6 @@ draw_0=0
 color_0=0
 style_0=0
 weight_0=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Moving Average
-period=480
-shift=0
-method=0
-apply=0
-color=16777215
-style=0
-weight=3
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Moving Average
-period=240
-shift=0
-method=0
-apply=0
-color=15631086
-style=0
-weight=3
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Moving Average
-period=120
-shift=0
-method=0
-apply=0
-color=14772545
-style=0
-weight=3
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Moving Average
-period=60
-shift=0
-method=0
-apply=0
-color=65535
-style=0
-weight=3
 period_flags=0
 show_data=1
 </indicator>
