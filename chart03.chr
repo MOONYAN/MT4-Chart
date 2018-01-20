@@ -3,7 +3,7 @@ id=131594215772620496
 comment=Only Run KRC Broker
 symbol=AUDJPY_
 period=240
-leftpos=2030
+leftpos=2032
 digits=3
 scale=16
 graph=1
@@ -442,48 +442,6 @@ zorder=0
 value_0=88.454476
 </object>
 <object>
-type=5
-object_name=Channel 46265
-period_flags=0
-create_time=1515566265
-color=65535
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1515458700
-value_0=88.848000
-time_1=1515646800
-value_1=87.160000
-time_2=1515448800
-value_2=88.514184
-ray=0
-</object>
-<object>
-type=5
-object_name=Channel 17701
-period_flags=0
-create_time=1516061989
-color=55295
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1515729600
-value_0=87.369278
-time_1=1516219200
-value_1=87.948282
-time_2=1515729600
-value_2=88.038969
-ray=0
-</object>
-<object>
 type=1
 object_name=Horizontal Line 17731
 period_flags=0
@@ -586,11 +544,11 @@ value_1=88.360000
 ray=0
 </object>
 <object>
-type=2
-object_name=Trendline 41928
+type=5
+object_name=Channel 3235
 period_flags=0
-create_time=1516151752
-color=42495
+create_time=1516375203
+color=16777215
 style=0
 weight=3
 background=0
@@ -598,11 +556,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1516046400
-value_0=88.495103
-time_1=1516161600
-value_1=88.026753
-ray=1
+time_0=1512532800
+value_0=84.556583
+time_1=1517788800
+value_1=89.803444
+time_2=1515556800
+value_2=88.359139
+ray=0
 </object>
 </indicator>
 <indicator>

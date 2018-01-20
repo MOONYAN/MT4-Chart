@@ -1,8 +1,9 @@
 <chart>
 id=131607356250323154
+comment=Only Run KRC Broker
 symbol=USDJPY_
 period=240
-leftpos=2000
+leftpos=2002
 digits=3
 scale=8
 graph=1
@@ -201,11 +202,11 @@ value_1=115.688634
 ray=1
 </object>
 <object>
-type=2
-object_name=Trendline 29804
+type=5
+object_name=Channel 2895
 period_flags=0
-create_time=1516336236
-color=42495
+create_time=1516374863
+color=65535
 style=0
 weight=3
 background=0
@@ -213,11 +214,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1515585600
-value_0=112.032842
-time_1=1516291200
-value_1=110.290311
-ray=1
+time_0=1515614400
+value_0=111.826429
+time_1=1518408000
+value_1=109.893261
+time_2=1515398400
+value_2=110.695047
+ray=0
 </object>
 </indicator>
 <indicator>

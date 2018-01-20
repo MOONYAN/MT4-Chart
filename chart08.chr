@@ -2,10 +2,10 @@
 id=131607288631246306
 comment=Only Run KRC Broker
 symbol=USDCHF_
-period=5
-leftpos=1962
+period=240
+leftpos=1945
 digits=5
-scale=1
+scale=4
 graph=1
 fore=0
 grid=0

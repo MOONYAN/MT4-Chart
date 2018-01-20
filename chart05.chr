@@ -1,8 +1,9 @@
 <chart>
 id=131594367643098593
+comment=Only Run KRC Broker
 symbol=GBPUSD_
-period=5
-leftpos=2508
+period=15
+leftpos=1932
 digits=5
 scale=1
 graph=1
