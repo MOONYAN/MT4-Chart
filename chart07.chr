@@ -3,7 +3,7 @@ id=131594367643098594
 comment=Only Run KRC Broker
 symbol=GBPNZD_
 period=15
-leftpos=2245
+leftpos=13158
 digits=5
 scale=8
 graph=1
@@ -707,36 +707,6 @@ levels_color=65535
 levels_style=0
 levels_weight=2
 level_0=0.00000000
-period_flags=0
-show_data=1
-</indicator>
-</window>
-
-<window>
-height=25
-fixed_height=0
-<indicator>
-name=Custom Indicator
-<expert>
-name=RSI
-flags=339
-window_num=2
-<inputs>
-InpRSIPeriod=14
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=16748574
-style_0=0
-weight_0=0
-min=0.00000000
-max=100.00000000
-levels_color=12632256
-levels_style=2
-levels_weight=1
-level_0=30.00000000
-level_1=70.00000000
 period_flags=0
 show_data=1
 </indicator>
