@@ -2,7 +2,7 @@
 id=131594262742984712
 symbol=GBPJPY_
 period=5
-leftpos=4639
+leftpos=4861
 digits=3
 scale=8
 graph=1
@@ -12,7 +12,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1
@@ -556,25 +556,6 @@ value_1=155.905430
 time_2=1516784400
 value_2=155.007669
 ray=0
-</object>
-<object>
-type=2
-object_name=Trendline 44955
-period_flags=0
-create_time=1516875675
-color=42495
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1516863600
-value_0=155.115451
-time_1=1516879200
-value_1=155.639560
-ray=1
 </object>
 </indicator>
 <indicator>

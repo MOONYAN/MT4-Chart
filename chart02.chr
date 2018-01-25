@@ -1,8 +1,9 @@
 <chart>
 id=131594215888087413
+comment=Only Run KRC Broker
 symbol=NZDJPY_
 period=5
-leftpos=4639
+leftpos=3584
 digits=3
 scale=8
 graph=1
