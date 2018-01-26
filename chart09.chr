@@ -1,10 +1,11 @@
 <chart>
 id=131594262742984712
+comment=Only Run KRC Broker
 symbol=GBPJPY_
-period=5
-leftpos=4861
+period=30
+leftpos=2372
 digits=3
-scale=8
+scale=16
 graph=1
 fore=0
 grid=0
@@ -530,8 +531,8 @@ hidden=0
 zorder=0
 time_0=1515981600
 value_0=151.440389
-time_1=1516906800
-value_1=154.665175
+time_1=1517198400
+value_1=155.758247
 time_2=1516071600
 value_2=153.622646
 ray=0

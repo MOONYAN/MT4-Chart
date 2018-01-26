@@ -1,9 +1,8 @@
 <chart>
 id=131612470938807417
-comment=Only Run KRC Broker
 symbol=USDJPY_
-period=5
-leftpos=1953
+period=240
+leftpos=3329
 digits=3
 scale=8
 graph=1
@@ -24,7 +23,7 @@ window_left=182
 window_top=182
 window_right=1498
 window_bottom=796
-window_type=1
+window_type=3
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -38,7 +37,7 @@ askline_color=255
 stops_color=255
 
 <window>
-height=116
+height=115
 fixed_height=0
 <indicator>
 name=main
@@ -179,25 +178,6 @@ value_2=110.533061
 ray=0
 </object>
 <object>
-type=2
-object_name=Trendline 8862
-period_flags=0
-create_time=1516774046
-color=42495
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1516759800
-value_0=110.636541
-time_1=1516782600
-value_1=109.937218
-ray=1
-</object>
-<object>
 type=1
 object_name=Horizontal Line 8939
 period_flags=0
@@ -317,6 +297,61 @@ value_0=109.723000
 time_1=1516794934
 value_1=109.529000
 ray=0
+</object>
+<object>
+type=1
+object_name=Horizontal Line 31029
+period_flags=0
+create_time=1516927285
+color=255
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=108.851042
+</object>
+<object>
+type=5
+object_name=Channel 10059
+period_flags=0
+create_time=1516971851
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1516579200
+value_0=111.854717
+time_1=1517054400
+value_1=108.936618
+time_2=1516716000
+value_2=109.575740
+ray=0
+</object>
+<object>
+type=2
+object_name=Trendline 10123
+period_flags=0
+create_time=1516971915
+color=42495
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1516892400
+value_0=108.438204
+time_1=1517022000
+value_1=109.395389
+ray=1
 </object>
 </indicator>
 <indicator>
@@ -557,7 +592,7 @@ show_data=1
 </window>
 
 <window>
-height=34
+height=35
 fixed_height=0
 <indicator>
 name=MACD
