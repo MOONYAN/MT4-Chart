@@ -1,8 +1,8 @@
 <chart>
 id=131614177240886053
 symbol=XAUUSD_
-period=15
-leftpos=15401
+period=60
+leftpos=3140
 digits=2
 scale=4
 graph=1
@@ -26,10 +26,10 @@ window_bottom=717
 window_type=1
 background_color=0
 foreground_color=16777215
-barup_color=65280
+barup_color=255
 bardown_color=65280
-bullcandle_color=0
-bearcandle_color=16777215
+bullcandle_color=255
+bearcandle_color=65280
 chartline_color=65280
 volumes_color=3329330
 grid_color=10061943
