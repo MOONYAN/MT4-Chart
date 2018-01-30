@@ -1,10 +1,10 @@
 <chart>
 id=131612470938807417
 symbol=USDJPY_
-period=5
-leftpos=18937
+period=60
+leftpos=6644
 digits=3
-scale=4
+scale=8
 graph=1
 fore=0
 grid=0
@@ -12,7 +12,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=0
+one_click=1
 one_click_btn=1
 askline=0
 days=1
@@ -301,25 +301,6 @@ value_2=109.541655
 ray=0
 </object>
 <object>
-type=2
-object_name=Trendline 54259
-period_flags=0
-create_time=1517212659
-color=42495
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1516987800
-value_0=108.237147
-time_1=1517236200
-value_1=109.035801
-ray=1
-</object>
-<object>
 type=1
 object_name=Horizontal Line 8651
 period_flags=0
@@ -333,6 +314,25 @@ selectable=1
 hidden=0
 zorder=0
 value_0=110.224770
+</object>
+<object>
+type=2
+object_name=Trendline 23722
+period_flags=0
+create_time=1517313194
+color=42495
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1516860000
+value_0=109.925724
+time_1=1517306400
+value_1=109.117208
+ray=1
 </object>
 </indicator>
 <indicator>

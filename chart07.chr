@@ -1,11 +1,10 @@
 <chart>
 id=131612464373349650
-comment=Only Run KRC Broker
 symbol=GBPNZD_
 period=5
-leftpos=18667
+leftpos=5348
 digits=5
-scale=8
+scale=4
 graph=1
 fore=0
 grid=0
@@ -392,6 +391,25 @@ selectable=1
 hidden=0
 zorder=0
 value_0=1.942989
+</object>
+<object>
+type=2
+object_name=Trendline 24622
+period_flags=0
+create_time=1517314094
+color=42495
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1516928400
+value_0=1.947614
+time_1=1517317200
+value_1=1.914833
+ray=1
 </object>
 </indicator>
 <indicator>
