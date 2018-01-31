@@ -1,8 +1,8 @@
 <chart>
 id=131617747518432350
-symbol=GBPUSD_
+symbol=GBPAUD_
 period=60
-leftpos=2507
+leftpos=2168
 digits=5
 scale=8
 graph=1
