@@ -1,10 +1,10 @@
 <chart>
 id=131612470938807417
 symbol=USDJPY_
-period=30
-leftpos=1989
+period=60
+leftpos=6688
 digits=3
-scale=2
+scale=8
 graph=1
 fore=0
 grid=0
@@ -12,7 +12,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1
@@ -330,8 +330,8 @@ hidden=0
 zorder=0
 time_0=1516860000
 value_0=109.925724
-time_1=1517306400
-value_1=109.117208
+time_1=1517486400
+value_1=108.786054
 ray=1
 </object>
 </indicator>

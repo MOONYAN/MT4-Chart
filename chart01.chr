@@ -1,9 +1,8 @@
 <chart>
 id=131594350398842028
-comment=Only Run KRC Broker
 symbol=XAUUSD_
-period=15
-leftpos=15869
+period=60
+leftpos=13211
 digits=2
 scale=8
 graph=1
@@ -13,7 +12,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1
@@ -438,25 +437,6 @@ zorder=0
 value_0=1351.391295
 </object>
 <object>
-type=2
-object_name=Trendline 41577
-period_flags=0
-create_time=1516937833
-color=42495
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1516916700
-value_0=1342.762845
-time_1=1516948200
-value_1=1357.700849
-ray=1
-</object>
-<object>
 type=1
 object_name=Horizontal Line 42156
 period_flags=0
@@ -560,9 +540,9 @@ ray=0
 </object>
 <object>
 type=2
-object_name=Trendline 17194
+object_name=Trendline 48738
 period_flags=0
-create_time=1517306666
+create_time=1517403746
 color=42495
 style=0
 weight=3
@@ -571,10 +551,10 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1516881600
-value_0=1366.938202
-time_1=1517288400
-value_1=1341.151685
+time_0=1516878300
+value_0=1366.471171
+time_1=1517433300
+value_1=1341.604865
 ray=1
 </object>
 </indicator>

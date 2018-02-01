@@ -1,10 +1,10 @@
 <chart>
 id=131617747518432350
-symbol=GBPAUD_
-period=60
-leftpos=2168
-digits=5
-scale=8
+symbol=XAUUSD_
+period=30
+leftpos=7829
+digits=2
+scale=4
 graph=1
 fore=0
 grid=0
