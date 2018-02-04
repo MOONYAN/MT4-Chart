@@ -1,8 +1,9 @@
 <chart>
 id=131612470938807417
+comment=Only Run KRC Broker
 symbol=USDJPY_
-period=1440
-leftpos=5638
+period=1
+leftpos=17567
 digits=3
 scale=16
 graph=1

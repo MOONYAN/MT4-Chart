@@ -1,10 +1,11 @@
 <chart>
 id=131619734647677431
+comment=Only Run KRC Broker
 symbol=NZDUSD_
-period=60
-leftpos=2123
+period=5
+leftpos=3718
 digits=5
-scale=16
+scale=8
 graph=1
 fore=0
 grid=0
