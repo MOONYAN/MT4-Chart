@@ -2,10 +2,10 @@
 id=131612464373349650
 comment=Only Run KRC Broker
 symbol=GBPNZD_
-period=5
-leftpos=7030
+period=1
+leftpos=22353
 digits=5
-scale=16
+scale=8
 graph=1
 fore=0
 grid=0

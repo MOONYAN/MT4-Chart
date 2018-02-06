@@ -1,9 +1,9 @@
 <chart>
-id=131619734647677431
+id=131620121231582539
 comment=Only Run KRC Broker
-symbol=NZDUSD_
-period=60
-leftpos=2100
+symbol=AUDUSD_
+period=5
+leftpos=2644
 digits=5
 scale=8
 graph=1
@@ -13,17 +13,17 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1
 descriptions=0
 shift_size=20
 fixed_pos=0
-window_left=26
-window_top=26
+window_left=52
+window_top=52
 window_right=1420
-window_bottom=464
+window_bottom=525
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -44,9 +44,9 @@ fixed_height=0
 name=main
 <object>
 type=5
-object_name=Channel 13853
+object_name=Channel 52474
 period_flags=0
-create_time=1517499933
+create_time=1517538554
 color=65535
 style=0
 weight=3
@@ -55,19 +55,34 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1479600000
-value_0=0.686067
-time_1=1534032000
-value_1=0.674787
-time_2=1480809600
-value_2=0.759393
+time_0=1480809600
+value_0=0.714761
+time_1=1537660800
+value_1=0.783315
+time_2=1485043200
+value_2=0.786030
 ray=0
+</object>
+<object>
+type=1
+object_name=Horizontal Line 52580
+period_flags=0
+create_time=1517538660
+color=65535
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=0.799000
 </object>
 <object>
 type=5
-object_name=Channel 13952
+object_name=Channel 52700
 period_flags=0
-create_time=1517500032
+create_time=1517538780
 color=65535
 style=0
 weight=3
@@ -76,19 +91,19 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1513641600
-value_0=0.693491
-time_1=1517889600
-value_1=0.745322
-time_2=1513728000
-value_2=0.706782
+time_0=1513713600
+value_0=0.761104
+time_1=1517961600
+value_1=0.815174
+time_2=1514275200
+value_2=0.778077
 ray=0
 </object>
 <object>
 type=1
-object_name=Horizontal Line 14458
+object_name=Horizontal Line 53410
 period_flags=0
-create_time=1517500538
+create_time=1517539490
 color=65535
 style=0
 weight=3
@@ -97,14 +112,14 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=0.663978
+value_0=0.865980
 </object>
 <object>
 type=1
-object_name=Horizontal Line 14486
+object_name=Horizontal Line 63327
 period_flags=0
-create_time=1517500566
-color=65535
+create_time=1517549407
+color=255
 style=0
 weight=3
 background=1
@@ -112,43 +127,79 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=0.690160
+value_0=0.800395
 </object>
 <object>
-type=1
-object_name=Horizontal Line 14501
+type=5
+object_name=Channel 17262
 period_flags=0
-create_time=1517500581
-color=65535
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-value_0=0.710100
-</object>
-<object>
-type=1
-object_name=Horizontal Line 14818
-period_flags=0
-create_time=1517500898
+create_time=1517568878
 color=16777215
 style=0
 weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1517392800
+value_0=0.812493
+time_1=1517954400
+value_1=0.787478
+time_2=1517446800
+value_2=0.799786
+ray=0
+</object>
+<object>
+type=0
+object_name=Vertical Line 10130
+period_flags=0
+create_time=1517823890
+color=16711680
+style=0
+weight=5
 background=1
 filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=0.723852
+time_0=1517529600
 </object>
 <object>
-type=5
-object_name=Channel 16008
+type=0
+object_name=Vertical Line 10161
 period_flags=0
-create_time=1517502088
+create_time=1517823921
+color=16711680
+style=0
+weight=5
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1517544000
+</object>
+<object>
+type=0
+object_name=Vertical Line 10169
+period_flags=0
+create_time=1517823929
+color=16711680
+style=0
+weight=5
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1517558400
+</object>
+<object>
+type=1
+object_name=Horizontal Line 5882
+period_flags=0
+create_time=1517885178
 color=65535
 style=0
 weight=3
@@ -157,12 +208,25 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1517437200
-value_0=0.738449
-time_1=1517508600
-value_1=0.736005
-time_2=1517438100
-value_2=0.735321
+value_0=0.783440
+</object>
+<object>
+type=2
+object_name=Trendline 39541
+period_flags=0
+create_time=1517918837
+color=16711680
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1517892000
+value_0=0.783499
+time_1=1517946000
+value_1=0.787259
 ray=0
 </object>
 </indicator>
@@ -339,7 +403,7 @@ show_data=1
 name=Moving Average
 period=60
 shift=0
-method=0
+method=1
 apply=3
 color=16777215
 style=0
@@ -351,7 +415,7 @@ show_data=1
 name=Moving Average
 period=60
 shift=0
-method=0
+method=1
 apply=2
 color=16777215
 style=0
@@ -363,7 +427,7 @@ show_data=1
 name=Moving Average
 period=60
 shift=0
-method=0
+method=1
 apply=0
 color=16777215
 style=0
@@ -391,25 +455,6 @@ flags=339
 window_num=0
 <inputs>
 LabelColor=16777215
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=KRC\b-clock
-flags=339
-window_num=0
-<inputs>
-ClockColor=55295
-size=16
 </inputs>
 </expert>
 shift_0=0
