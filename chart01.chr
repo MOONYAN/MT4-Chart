@@ -1,11 +1,10 @@
 <chart>
 id=131594350398842028
-comment=Only Run KRC Broker
 symbol=XAUUSD_
-period=5
-leftpos=6304
+period=1
+leftpos=10456
 digits=2
-scale=16
+scale=4
 graph=1
 fore=0
 grid=0
@@ -297,8 +296,8 @@ hidden=0
 zorder=0
 time_0=1515477600
 value_0=1307.405983
-time_1=1517472000
-value_1=1349.022222
+time_1=1517976000
+value_1=1358.209783
 time_2=1515110400
 value_2=1329.686325
 ray=0
@@ -537,6 +536,27 @@ time_0=1517241184
 value_0=1340.740000
 time_1=1517242092
 value_1=1339.340000
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 4497
+period_flags=0
+create_time=1517883793
+color=65535
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1516838400
+value_0=1367.059783
+time_1=1518008400
+value_1=1340.727174
+time_2=1516820400
+value_2=1345.047826
 ray=0
 </object>
 </indicator>
