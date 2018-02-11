@@ -1,10 +1,11 @@
 <chart>
 id=131612464373349650
+comment=Only Run KRC Broker
 symbol=GBPNZD_
-period=30
-leftpos=2704
+period=10080
+leftpos=397
 digits=5
-scale=8
+scale=32
 graph=1
 fore=0
 grid=0
