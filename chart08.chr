@@ -1,11 +1,10 @@
 <chart>
 id=131594262742984712
-comment=Only Run KRC Broker
 symbol=GBPJPY_
-period=240
-leftpos=3429
+period=5
+leftpos=7584
 digits=3
-scale=8
+scale=2
 graph=1
 fore=0
 grid=0
@@ -1941,6 +1940,25 @@ value_0=150.700000
 time_1=1518180760
 value_1=150.244000
 ray=0
+</object>
+<object>
+type=2
+object_name=Trendline 18974
+period_flags=0
+create_time=1518488094
+color=16711680
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1518096600
+value_0=154.032665
+time_1=1518492600
+value_1=149.915302
+ray=1
 </object>
 </indicator>
 <indicator>

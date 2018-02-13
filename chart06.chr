@@ -2,8 +2,8 @@
 id=131594350398842028
 comment=Only Run KRC Broker
 symbol=XAUUSD_
-period=240
-leftpos=2143
+period=15
+leftpos=3705
 digits=2
 scale=32
 graph=1

@@ -1,11 +1,10 @@
 <chart>
 id=131612470938807417
-comment=Only Run KRC Broker
 symbol=USDJPY_
-period=5
-leftpos=5211
+period=60
+leftpos=2172
 digits=3
-scale=8
+scale=16
 graph=1
 fore=0
 grid=0
@@ -369,25 +368,6 @@ ray=1
 </object>
 <object>
 type=2
-object_name=Trendline 25648
-period_flags=0
-create_time=1518101552
-color=16711680
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518046200
-value_0=109.097979
-time_1=1518090000
-value_1=109.622000
-ray=1
-</object>
-<object>
-type=2
 object_name=Trendline 26528
 period_flags=0
 create_time=1518102432
@@ -419,25 +399,6 @@ selectable=1
 hidden=0
 zorder=0
 value_0=109.207000
-</object>
-<object>
-type=2
-object_name=Trendline 27792
-period_flags=0
-create_time=1518169232
-color=16711680
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518133500
-value_0=108.486418
-time_1=1518166200
-value_1=109.075379
-ray=1
 </object>
 </indicator>
 <indicator>

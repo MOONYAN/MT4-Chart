@@ -2,10 +2,10 @@
 id=131594338864464977
 comment=Only Run KRC Broker
 symbol=GBPAUD_
-period=30
-leftpos=2275
+period=60
+leftpos=2142
 digits=5
-scale=32
+scale=8
 graph=1
 fore=0
 grid=0

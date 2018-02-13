@@ -2,8 +2,8 @@
 id=131612464373349650
 comment=Only Run KRC Broker
 symbol=GBPNZD_
-period=10080
-leftpos=397
+period=240
+leftpos=2134
 digits=5
 scale=32
 graph=1
@@ -831,25 +831,6 @@ value_0=1.903342
 time_1=1516801080
 value_1=1.914350
 ray=0
-</object>
-<object>
-type=2
-object_name=Trendline 3075
-period_flags=0
-create_time=1518078979
-color=42495
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518001200
-value_0=1.895791
-time_1=1518087600
-value_1=1.928238
-ray=1
 </object>
 <object>
 type=2
