@@ -1,10 +1,10 @@
 <chart>
-id=131594338864464977
-symbol=GBPAUD_
+id=131612470938807417
+symbol=USDJPY_
 period=60
-leftpos=2220
-digits=5
-scale=16
+leftpos=2182
+digits=3
+scale=8
 graph=1
 fore=0
 grid=0
@@ -19,10 +19,10 @@ days=1
 descriptions=0
 shift_size=20
 fixed_pos=0
-window_left=638
-window_top=0
-window_right=1276
-window_bottom=245
+window_left=182
+window_top=182
+window_right=1498
+window_bottom=796
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -37,15 +37,15 @@ askline_color=255
 stops_color=255
 
 <window>
-height=132
+height=128
 fixed_height=0
 <indicator>
 name=main
 <object>
 type=5
-object_name=Channel 51614
+object_name=Channel 8338
 period_flags=0
-create_time=1516685726
+create_time=1516773522
 color=16777215
 style=0
 weight=3
@@ -54,20 +54,20 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1478995200
-value_0=1.570483
-time_1=1520812800
-value_1=1.653192
-time_2=1478649600
-value_2=1.732679
+time_0=1487548800
+value_0=108.455854
+time_1=1533427200
+value_1=105.616464
+time_2=1492300800
+value_2=115.379955
 ray=0
 </object>
 <object>
 type=1
-object_name=Horizontal Line 51821
+object_name=Horizontal Line 8398
 period_flags=0
-create_time=1516685933
-color=65535
+create_time=1516773582
+color=16777215
 style=0
 weight=3
 background=1
@@ -75,13 +75,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=2.029594
+value_0=105.392259
 </object>
 <object>
 type=1
-object_name=Horizontal Line 52082
+object_name=Horizontal Line 8471
 period_flags=0
-create_time=1516686194
+create_time=1516773655
 color=65535
 style=0
 weight=3
@@ -90,13 +90,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=1.722065
+value_0=111.610208
 </object>
 <object>
 type=1
-object_name=Horizontal Line 52182
+object_name=Horizontal Line 8603
 period_flags=0
-create_time=1516686294
+create_time=1516773787
 color=65535
 style=0
 weight=3
@@ -105,13 +105,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=1.830047
+value_0=98.140386
 </object>
 <object>
 type=1
-object_name=Horizontal Line 52361
+object_name=Horizontal Line 8435
 period_flags=0
-create_time=1516686473
+create_time=1516773619
 color=65535
 style=0
 weight=3
@@ -120,55 +120,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=1.565918
+value_0=115.551738
 </object>
 <object>
 type=5
-object_name=Channel 28539
+object_name=Channel 8780
 period_flags=0
-create_time=1517907835
-color=16777215
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1508198400
-value_0=1.662997
-time_1=1515456000
-value_1=1.799402
-time_2=1508457600
-value_2=1.716489
-ray=0
-</object>
-<object>
-type=5
-object_name=Channel 28687
-period_flags=0
-create_time=1517907983
-color=16777215
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1515621600
-value_0=1.708904
-time_1=1519056000
-value_1=1.770930
-time_2=1516003200
-value_2=1.756001
-ray=0
-</object>
-<object>
-type=5
-object_name=Channel 29517
-period_flags=0
-create_time=1517908813
+create_time=1516773964
 color=65535
 style=0
 weight=3
@@ -177,19 +135,19 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1517396400
-value_0=1.743610
-time_1=1517526000
-value_1=1.782950
-time_2=1517400000
-value_2=1.756154
+time_0=1515628800
+value_0=111.876000
+time_1=1519948800
+value_1=108.526887
+time_2=1515168000
+value_2=109.688462
 ray=0
 </object>
 <object>
 type=1
-object_name=Horizontal Line 50019
+object_name=Horizontal Line 8939
 period_flags=0
-create_time=1517929315
+create_time=1516774123
 color=16777215
 style=0
 weight=3
@@ -198,13 +156,13 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=1.748920
+value_0=109.887000
 </object>
 <object>
 type=22
-object_name=#3360829 sell 0.03 GBPAUD_ at 1.76188
+object_name=#3318945 sell 0.01 USDJPY_ at 109.72300
 period_flags=0
-create_time=1517974321
+create_time=1516800287
 color=255
 weight=1
 background=0
@@ -214,14 +172,14 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1517928971
-value_0=1.761880
+time_0=1516785017
+value_0=109.723000
 </object>
 <object>
 type=22
-object_name=#3360829 sell 0.03 GBPAUD_ at 1.76188 stop loss at 1.78192
+object_name=#3318945 sell 0.01 USDJPY_ at 109.723 stop loss at 111.724
 period_flags=0
-create_time=1517974321
+create_time=1516800287
 color=255
 weight=1
 background=0
@@ -231,14 +189,14 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1517928971
-value_0=1.781920
+time_0=1516785017
+value_0=111.724000
 </object>
 <object>
 type=22
-object_name=#3360829 sell 0.03 GBPAUD_ at 1.76188 take profit at 1.75694
+object_name=#3318945 sell 0.01 USDJPY_ at 109.723 take profit at 109.221
 period_flags=0
-create_time=1517974321
+create_time=1516800287
 color=16711680
 weight=1
 background=0
@@ -248,14 +206,14 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1517928971
-value_0=1.756940
+time_0=1516785017
+value_0=109.221000
 </object>
 <object>
 type=22
-object_name=#3360829 sell 0.03 GBPAUD_ at 1.76188 close at 1.77039
+object_name=#3318945 sell 0.01 USDJPY_ at 109.723 close at 109.529
 period_flags=0
-create_time=1517974321
+create_time=1516800287
 color=2139610
 weight=1
 background=0
@@ -265,14 +223,14 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1517973611
-value_0=1.770390
+time_0=1516794934
+value_0=109.529000
 </object>
 <object>
 type=2
-object_name=#3360829 1.76188 -> 1.77039
+object_name=#3318945 109.723 -> 109.529
 period_flags=0
-create_time=1517974321
+create_time=1516800287
 color=255
 style=2
 weight=1
@@ -281,91 +239,17 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1517928971
-value_0=1.761880
-time_1=1517973611
-value_1=1.770390
-ray=0
-</object>
-<object>
-type=22
-object_name=#3369914 buy 0.01 GBPAUD_ at 1.78084
-period_flags=0
-create_time=1518091433
-color=16711680
-weight=1
-background=0
-symbol_code=1
-anchor_pos=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518089007
-value_0=1.780840
-</object>
-<object>
-type=22
-object_name=#3369914 buy 0.01 GBPAUD_ at 1.78084 close at 1.78953
-period_flags=0
-create_time=1518091433
-color=2139610
-weight=1
-background=0
-symbol_code=3
-anchor_pos=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518091261
-value_0=1.789530
-</object>
-<object>
-type=2
-object_name=#3369914 1.78084 -> 1.78953
-period_flags=0
-create_time=1518091433
-color=16711680
-style=2
-weight=1
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518089007
-value_0=1.780840
-time_1=1518091261
-value_1=1.789530
-ray=0
-</object>
-<object>
-type=5
-object_name=Channel 1717
-period_flags=0
-create_time=1518077621
-color=65535
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1517940000
-value_0=1.762966
-time_1=1518156000
-value_1=1.767351
-time_2=1517958000
-value_2=1.775209
+time_0=1516785017
+value_0=109.723000
+time_1=1516794934
+value_1=109.529000
 ray=0
 </object>
 <object>
 type=1
-object_name=Horizontal Line 29756
+object_name=Horizontal Line 31029
 period_flags=0
-create_time=1517909052
+create_time=1516927285
 color=16777215
 style=0
 weight=3
@@ -374,66 +258,73 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=1.780250
-</object>
-<object>
-type=22
-object_name=#3380646 sell 0.01 GBPAUD_ at 1.77312
-period_flags=0
-create_time=1518191836
-color=255
-weight=1
-background=0
-symbol_code=1
-anchor_pos=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518179477
-value_0=1.773120
-</object>
-<object>
-type=22
-object_name=#3380646 sell 0.01 GBPAUD_ at 1.77312 close at 1.76861
-period_flags=0
-create_time=1518191836
-color=2139610
-weight=1
-background=0
-symbol_code=3
-anchor_pos=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518191805
-value_0=1.768610
-</object>
-<object>
-type=2
-object_name=#3380646 1.77312 -> 1.76861
-period_flags=0
-create_time=1518191836
-color=255
-style=2
-weight=1
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518179477
-value_0=1.773120
-time_1=1518191805
-value_1=1.768610
-ray=0
+value_0=108.606000
 </object>
 <object>
 type=1
-object_name=Horizontal Line 43014
+object_name=Horizontal Line 8651
 period_flags=0
-create_time=1518512134
+create_time=1516773835
+color=65535
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=110.224770
+</object>
+<object>
+type=1
+object_name=Horizontal Line 56736
+period_flags=0
+create_time=1518067104
+color=16711680
+style=0
+weight=2
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=108.927000
+</object>
+<object>
+type=1
+object_name=Horizontal Line 56769
+period_flags=0
+create_time=1518067137
+color=16711680
+style=0
+weight=2
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=109.722000
+</object>
+<object>
+type=1
+object_name=Horizontal Line 29356
+period_flags=0
+create_time=1518105260
+color=16711680
+style=0
+weight=2
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=109.207000
+</object>
+<object>
+type=1
+object_name=Horizontal Line 9623
+period_flags=0
+create_time=1518609815
 color=255
 style=0
 weight=2
@@ -442,13 +333,34 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-value_0=1.760762
+value_0=107.321000
+</object>
+<object>
+type=5
+object_name=Channel 13168
+period_flags=0
+create_time=1518613360
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1518508800
+value_0=108.312958
+time_1=1518775200
+value_1=106.339437
+time_2=1518526800
+value_2=107.262535
+ray=0
 </object>
 <object>
 type=2
-object_name=Trendline 2890
+object_name=Trendline 13475
 period_flags=0
-create_time=1518603082
+create_time=1518613667
 color=6333684
 style=0
 weight=3
@@ -457,37 +369,18 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1518134400
-value_0=1.798841
-time_1=1518613200
-value_1=1.765544
-ray=1
-</object>
-<object>
-type=2
-object_name=Trendline 10707
-period_flags=0
-create_time=1518152147
-color=16711680
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1517266800
-value_0=1.734899
-time_1=1518264000
-value_1=1.778123
+time_0=1343779200
+value_0=76.294816
+time_1=1535587200
+value_1=111.256583
 ray=1
 </object>
 <object>
 type=22
-object_name=#3391364 buy 0.01 GBPAUD_ at 1.76582
+object_name=#3390463 sell 0.01 USDJPY_ at 106.84600
 period_flags=0
-create_time=1518615784
-color=16711680
+create_time=1518708587
+color=255
 weight=1
 background=0
 symbol_code=1
@@ -496,14 +389,14 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1518614318
-value_0=1.765820
+time_0=1518580773
+value_0=106.846000
 </object>
 <object>
 type=22
-object_name=#3391364 buy 0.01 GBPAUD_ at 1.76582 close at 1.77047
+object_name=#3390463 sell 0.01 USDJPY_ at 106.846 close at 106.713
 period_flags=0
-create_time=1518615784
+create_time=1518708587
 color=2139610
 weight=1
 background=0
@@ -513,15 +406,15 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1518615035
-value_0=1.770470
+time_0=1518698175
+value_0=106.713000
 </object>
 <object>
 type=2
-object_name=#3391364 1.76582 -> 1.77047
+object_name=#3390463 106.846 -> 106.713
 period_flags=0
-create_time=1518615784
-color=16711680
+create_time=1518708587
+color=255
 style=2
 weight=1
 background=0
@@ -529,63 +422,10 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1518614318
-value_0=1.765820
-time_1=1518615035
-value_1=1.770470
-ray=0
-</object>
-<object>
-type=22
-object_name=#3391366 buy 0.01 GBPAUD_ at 1.76594
-period_flags=0
-create_time=1518618276
-color=16711680
-weight=1
-background=0
-symbol_code=1
-anchor_pos=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518614370
-value_0=1.765940
-</object>
-<object>
-type=22
-object_name=#3391366 buy 0.01 GBPAUD_ at 1.76594 close at 1.77049
-period_flags=0
-create_time=1518618276
-color=2139610
-weight=1
-background=0
-symbol_code=3
-anchor_pos=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518615032
-value_0=1.770490
-</object>
-<object>
-type=2
-object_name=#3391366 1.76594 -> 1.77049
-period_flags=0
-create_time=1518618276
-color=16711680
-style=2
-weight=1
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518614370
-value_0=1.765940
-time_1=1518615032
-value_1=1.770490
+time_0=1518580773
+value_0=106.846000
+time_1=1518698175
+value_1=106.713000
 ray=0
 </object>
 </indicator>
@@ -791,7 +631,7 @@ show_data=1
 </window>
 
 <window>
-height=32
+height=22
 fixed_height=0
 <indicator>
 name=MACD
@@ -834,7 +674,7 @@ show_data=1
 </window>
 
 <window>
-height=36
+height=50
 fixed_height=0
 <indicator>
 name=Custom Indicator

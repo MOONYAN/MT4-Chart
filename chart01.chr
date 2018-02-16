@@ -2,7 +2,7 @@
 id=131594350398842028
 symbol=XAUUSD_
 period=60
-leftpos=2492
+leftpos=2516
 digits=2
 scale=16
 graph=1
@@ -820,6 +820,27 @@ time_0=1518097660
 value_0=1315.660000
 time_1=1518100682
 value_1=1315.710000
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 13841
+period_flags=0
+create_time=1518679569
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1518624000
+value_0=1344.933333
+time_1=1518687000
+value_1=1356.994444
+time_2=1518630300
+value_2=1355.333333
 ray=0
 </object>
 </indicator>
