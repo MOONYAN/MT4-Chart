@@ -1,10 +1,11 @@
 <chart>
 id=131594350398842028
+comment=Only Run KRC Broker
 symbol=XAUUSD_
 period=60
-leftpos=2516
+leftpos=2547
 digits=2
-scale=16
+scale=32
 graph=1
 fore=0
 grid=0
@@ -12,7 +13,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1
@@ -1119,6 +1120,40 @@ levels_color=65535
 levels_style=0
 levels_weight=2
 level_0=0.00000000
+period_flags=0
+show_data=1
+</indicator>
+</window>
+
+<window>
+height=50
+fixed_height=0
+<indicator>
+name=Custom Indicator
+<expert>
+name=KRC\OSMA Color
+flags=339
+window_num=2
+<inputs>
+SoundON=false
+EmailON=false
+HistogramAlarm=false
+ZeroLineAlarm=false
+FastEMA=30
+SlowEMA=50
+SignalSMA=5
+</inputs>
+</expert>
+shift_0=0
+draw_0=2
+color_0=16776960
+style_0=0
+weight_0=2
+shift_1=0
+draw_1=2
+color_1=255
+style_1=0
+weight_1=2
 period_flags=0
 show_data=1
 </indicator>
