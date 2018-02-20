@@ -1,9 +1,8 @@
 <chart>
 id=131594350398842028
-comment=Only Run KRC Broker
 symbol=XAUUSD_
 period=60
-leftpos=2547
+leftpos=2593
 digits=2
 scale=32
 graph=1
@@ -844,6 +843,59 @@ time_2=1518630300
 value_2=1355.333333
 ray=0
 </object>
+<object>
+type=22
+object_name=#3392694 sell 0.01 XAUUSD_ at 1346.37000
+period_flags=0
+create_time=1519116571
+color=255
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1518622532
+value_0=1346.370000
+</object>
+<object>
+type=22
+object_name=#3392694 sell 0.01 XAUUSD_ at 1346.37 close at 1338.88
+period_flags=0
+create_time=1519116571
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519116102
+value_0=1338.880000
+</object>
+<object>
+type=2
+object_name=#3392694 1346.37 -> 1338.88
+period_flags=0
+create_time=1519116571
+color=255
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1518622532
+value_0=1346.370000
+time_1=1519116102
+value_1=1338.880000
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -1077,6 +1129,18 @@ apply=3
 color=16777215
 style=0
 weight=1
+period_flags=0
+show_data=1
+</indicator>
+<indicator>
+name=Moving Average
+period=568
+shift=0
+method=1
+apply=0
+color=16711680
+style=0
+weight=3
 period_flags=0
 show_data=1
 </indicator>

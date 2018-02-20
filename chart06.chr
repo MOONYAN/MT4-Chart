@@ -1,11 +1,10 @@
 <chart>
 id=131594262742984712
-comment=Only Run KRC Broker
 symbol=GBPJPY_
-period=60
-leftpos=13346
+period=5
+leftpos=10157
 digits=3
-scale=16
+scale=8
 graph=1
 fore=0
 grid=0
@@ -2036,25 +2035,6 @@ value_1=154.278000
 ray=0
 </object>
 <object>
-type=2
-object_name=Trendline 31338
-period_flags=0
-create_time=1518500458
-color=16711680
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1503475200
-value_0=139.325342
-time_1=1517781600
-value_1=151.947634
-ray=1
-</object>
-<object>
 type=22
 object_name=#3395355 buy 0.01 GBPJPY_ at 149.64800
 period_flags=0
@@ -2212,6 +2192,36 @@ value_0=149.550000
 time_1=1518698309
 value_1=149.550000
 ray=0
+</object>
+<object>
+type=0
+object_name=Vertical Line 42520
+period_flags=0
+create_time=1519035928
+color=16711680
+style=0
+weight=5
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1518615000
+</object>
+<object>
+type=0
+object_name=Vertical Line 43778
+period_flags=0
+create_time=1519037186
+color=16711680
+style=0
+weight=5
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1517578200
 </object>
 </indicator>
 <indicator>
