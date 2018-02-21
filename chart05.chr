@@ -2,9 +2,9 @@
 id=131612464373349650
 symbol=GBPNZD_
 period=60
-leftpos=2562
+leftpos=2622
 digits=5
-scale=16
+scale=32
 graph=1
 fore=0
 grid=0
