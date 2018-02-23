@@ -2,9 +2,9 @@
 id=131612464373349650
 symbol=GBPNZD_
 period=60
-leftpos=2622
+leftpos=2552
 digits=5
-scale=32
+scale=8
 graph=1
 fore=0
 grid=0
@@ -852,36 +852,6 @@ ray=1
 </object>
 <object>
 type=0
-object_name=Vertical Line 42604
-period_flags=0
-create_time=1519036012
-color=16711680
-style=0
-weight=5
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1518615000
-</object>
-<object>
-type=0
-object_name=Vertical Line 43078
-period_flags=0
-create_time=1519036486
-color=16711680
-style=0
-weight=5
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1517578200
-</object>
-<object>
-type=0
 object_name=Vertical Line 44670
 period_flags=0
 create_time=1519038078
@@ -894,6 +864,25 @@ selectable=1
 hidden=0
 zorder=0
 time_0=1515159000
+</object>
+<object>
+type=2
+object_name=Trendline 23933
+period_flags=0
+create_time=1519345021
+color=42495
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519189200
+value_0=1.907810
+time_1=1519416000
+value_1=1.894104
+ray=1
 </object>
 </indicator>
 <indicator>
@@ -1101,7 +1090,7 @@ period=568
 shift=0
 method=1
 apply=0
-color=16711680
+color=16776960
 style=0
 weight=3
 period_flags=0
@@ -1110,50 +1099,7 @@ show_data=1
 </window>
 
 <window>
-height=34
-fixed_height=0
-<indicator>
-name=MACD
-fast_ema=12
-slow_ema=26
-macd_sma=9
-apply=0
-color=65535
-style=0
-weight=2
-signal_color=255
-signal_style=2
-signal_weight=1
-levels_color=12632256
-levels_style=0
-levels_weight=1
-level_0=0.00000000
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=MACD
-fast_ema=12
-slow_ema=26
-macd_sma=9
-apply=4
-color=16711680
-style=0
-weight=2
-signal_color=16711680
-signal_style=2
-signal_weight=1
-levels_color=12632256
-levels_style=0
-levels_weight=1
-level_0=0.00000000
-period_flags=0
-show_data=1
-</indicator>
-</window>
-
-<window>
-height=50
+height=92
 fixed_height=0
 <indicator>
 name=Custom Indicator
@@ -1187,6 +1133,146 @@ levels_weight=1
 level_0=0.00000000
 period_flags=0
 show_data=1
+</indicator>
+</window>
+
+<window>
+height=8
+fixed_height=0
+<indicator>
+name=Custom Indicator
+<expert>
+name=spread_swap
+flags=339
+window_num=2
+</expert>
+shift_0=0
+draw_0=0
+color_0=0
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+<object>
+type=23
+object_name=spread/swap monitor1
+period_flags=0
+create_time=1519298877
+description=Current Spread :
+color=55295
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=200
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor2
+period_flags=0
+create_time=1519298877
+description=64
+color=55295
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=320
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor3
+period_flags=0
+create_time=1519298877
+description=Buy Swap :
+color=16777215
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=470
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor4
+period_flags=0
+create_time=1519298877
+description=-14.640000
+color=16777215
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=550
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor5
+period_flags=0
+create_time=1519298877
+description=Sell Swap :
+color=16777215
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=660
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor6
+period_flags=0
+create_time=1519298877
+description=1.120000
+color=16777215
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=740
+y_distance=2
+</object>
 </indicator>
 </window>
 </chart>

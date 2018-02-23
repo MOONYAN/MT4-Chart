@@ -1,11 +1,10 @@
 <chart>
 id=131620121231582539
-comment=Only Run KRC Broker
 symbol=AUDUSD_
 period=60
-leftpos=13757
+leftpos=2359
 digits=5
-scale=4
+scale=32
 graph=1
 fore=0
 grid=0
