@@ -2,17 +2,17 @@
 id=131594262742984712
 symbol=GBPJPY_
 period=5
-leftpos=10808
+leftpos=11027
 digits=3
-scale=16
+scale=32
 graph=1
-fore=0
+fore=1
 grid=0
 volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1
@@ -37,7 +37,7 @@ askline_color=255
 stops_color=255
 
 <window>
-height=126
+height=164
 fixed_height=0
 <indicator>
 name=main
@@ -2444,9 +2444,9 @@ selectable=1
 hidden=0
 zorder=0
 time_0=1519174800
-value_0=151.032033
-time_1=1519357500
-value_1=149.073252
+value_0=151.011057
+time_1=1519399800
+value_1=149.102276
 ray=1
 </object>
 <object>
@@ -2499,19 +2499,131 @@ zorder=0
 value_0=149.040000
 </object>
 <object>
-type=1
-object_name=Horizontal Line 32274
+type=22
+object_name=#3410287 buy 0.01 GBPJPY_ at 149.18400
 period_flags=0
-create_time=1519353362
-color=17919
-style=0
-weight=2
-background=1
+create_time=1519369303
+color=16711680
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
 filling=0
 selectable=1
 hidden=0
 zorder=0
+time_0=1519354796
 value_0=149.184000
+</object>
+<object>
+type=22
+object_name=#3410287 buy 0.01 GBPJPY_ at 149.184 close at 149.184
+period_flags=0
+create_time=1519369303
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519367403
+value_0=149.184000
+</object>
+<object>
+type=2
+object_name=#3410287 149.184 -> 149.184
+period_flags=0
+create_time=1519369303
+color=16711680
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519354796
+value_0=149.184000
+time_1=1519367403
+value_1=149.184000
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 63675
+period_flags=0
+create_time=1519384763
+color=65535
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519322400
+value_0=148.747889
+time_1=1519408800
+value_1=149.033911
+time_2=1519326000
+value_2=149.226156
+ray=0
+</object>
+<object>
+type=22
+object_name=#3411506 buy 0.01 GBPJPY_ at 149.35500
+period_flags=0
+create_time=1519396438
+color=16711680
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519383628
+value_0=149.355000
+</object>
+<object>
+type=22
+object_name=#3411506 buy 0.01 GBPJPY_ at 149.355 close at 149.371
+period_flags=0
+create_time=1519396438
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519396417
+value_0=149.371000
+</object>
+<object>
+type=2
+object_name=#3411506 149.355 -> 149.371
+period_flags=0
+create_time=1519396438
+color=16711680
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519383628
+value_0=149.355000
+time_1=1519396417
+value_1=149.371000
+ray=0
 </object>
 </indicator>
 <indicator>
@@ -2725,10 +2837,37 @@ weight=3
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Spread_Lines
+flags=339
+window_num=0
+<inputs>
+Ask_Line=16776960
+Bid_Line=16776960
+Line_Width=1
+a= *  *  *  *  * 
+Line_Style=1
+b= *  *  *  *  * 
+c= *  *  *  *  * 
+SA=0
+CF=true
+SAL=false
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=0
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
-height=84
+height=46
 fixed_height=0
 <indicator>
 name=Custom Indicator
@@ -2803,7 +2942,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519297323
-description=47
+description=50
 color=55295
 font=Arial Black
 fontsize=9

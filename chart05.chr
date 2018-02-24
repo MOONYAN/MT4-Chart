@@ -1,10 +1,10 @@
 <chart>
 id=131612464373349650
 symbol=GBPNZD_
-period=60
-leftpos=2552
+period=5
+leftpos=11027
 digits=5
-scale=8
+scale=32
 graph=1
 fore=0
 grid=0
@@ -1137,7 +1137,7 @@ show_data=1
 </window>
 
 <window>
-height=8
+height=10
 fixed_height=0
 <indicator>
 name=Custom Indicator
@@ -1178,7 +1178,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519298877
-description=64
+description=90
 color=55295
 font=Arial Black
 fontsize=9

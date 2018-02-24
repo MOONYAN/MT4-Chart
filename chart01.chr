@@ -1,12 +1,12 @@
 <chart>
 id=131594350398842028
 symbol=XAUUSD_
-period=5
-leftpos=10344
+period=60
+leftpos=2663
 digits=2
-scale=8
+scale=32
 graph=1
-fore=0
+fore=1
 grid=0
 volume=0
 scroll=1
@@ -37,7 +37,7 @@ askline_color=255
 stops_color=255
 
 <window>
-height=141
+height=185
 fixed_height=0
 <indicator>
 name=main
@@ -909,12 +909,65 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1519005600
-value_0=1351.350000
-time_1=1519279200
-value_1=1334.875117
-time_2=1518998400
-value_2=1342.807042
+time_0=1518998400
+value_0=1353.153846
+time_1=1519434000
+value_1=1321.363395
+time_2=1519005600
+value_2=1338.567639
+ray=0
+</object>
+<object>
+type=22
+object_name=#3411867 sell 0.01 XAUUSD_ at 1330.09000
+period_flags=0
+create_time=1519396582
+color=255
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519387266
+value_0=1330.090000
+</object>
+<object>
+type=22
+object_name=#3411867 sell 0.01 XAUUSD_ at 1330.09 close at 1329.56
+period_flags=0
+create_time=1519396582
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519396025
+value_0=1329.560000
+</object>
+<object>
+type=2
+object_name=#3411867 1330.09 -> 1329.56
+period_flags=0
+create_time=1519396582
+color=255
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519387266
+value_0=1330.090000
+time_1=1519396025
+value_1=1329.560000
 ray=0
 </object>
 </indicator>
@@ -1118,38 +1171,29 @@ period_flags=0
 show_data=1
 </indicator>
 <indicator>
-name=Moving Average
-period=60
-shift=0
-method=0
-apply=0
-color=16777215
-style=0
-weight=1
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Moving Average
-period=60
-shift=0
-method=0
-apply=2
-color=16777215
-style=0
-weight=1
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Moving Average
-period=60
-shift=0
-method=0
-apply=3
-color=16777215
-style=0
-weight=1
+name=Custom Indicator
+<expert>
+name=Spread_Lines
+flags=339
+window_num=0
+<inputs>
+Ask_Line=16776960
+Bid_Line=16776960
+Line_Width=1
+a= *  *  *  *  * 
+Line_Style=1
+b= *  *  *  *  * 
+c= *  *  *  *  * 
+SA=0
+CF=true
+SAL=false
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=0
+style_0=0
+weight_0=0
 period_flags=0
 show_data=1
 </indicator>
@@ -1159,7 +1203,7 @@ period=568
 shift=0
 method=1
 apply=0
-color=16711680
+color=16776960
 style=0
 weight=3
 period_flags=0
@@ -1168,7 +1212,7 @@ show_data=1
 </window>
 
 <window>
-height=90
+height=46
 fixed_height=0
 <indicator>
 name=Custom Indicator
@@ -1243,7 +1287,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519297440
-description=42
+description=55
 color=55295
 font=Arial Black
 fontsize=9

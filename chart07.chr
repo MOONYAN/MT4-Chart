@@ -2,9 +2,9 @@
 id=131612470938807417
 symbol=USDJPY_
 period=15
-leftpos=8428
+leftpos=8376
 digits=3
-scale=8
+scale=4
 graph=1
 fore=0
 grid=0

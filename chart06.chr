@@ -1,10 +1,10 @@
 <chart>
 id=131594215772620496
 symbol=AUDJPY_
-period=240
-leftpos=2080
+period=60
+leftpos=2387
 digits=3
-scale=8
+scale=16
 graph=1
 fore=0
 grid=0
@@ -906,7 +906,7 @@ show_data=1
 </window>
 
 <window>
-height=50
+height=89
 fixed_height=0
 <indicator>
 name=Custom Indicator
@@ -936,6 +936,146 @@ style_1=0
 weight_1=2
 period_flags=0
 show_data=1
+</indicator>
+</window>
+
+<window>
+height=11
+fixed_height=0
+<indicator>
+name=Custom Indicator
+<expert>
+name=spread_swap
+flags=339
+window_num=3
+</expert>
+shift_0=0
+draw_0=0
+color_0=0
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+<object>
+type=23
+object_name=spread/swap monitor1
+period_flags=0
+create_time=1519387727
+description=Current Spread :
+color=55295
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=200
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor2
+period_flags=0
+create_time=1519387727
+description=50
+color=55295
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=320
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor3
+period_flags=0
+create_time=1519387727
+description=Buy Swap :
+color=16777215
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=470
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor4
+period_flags=0
+create_time=1519387727
+description=0.880000
+color=16777215
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=550
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor5
+period_flags=0
+create_time=1519387727
+description=Sell Swap :
+color=16777215
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=660
+y_distance=2
+</object>
+<object>
+type=23
+object_name=spread/swap monitor6
+period_flags=0
+create_time=1519387727
+description=-9.600000
+color=16777215
+font=Arial Black
+fontsize=9
+angle=0
+anchor_pos=0
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+corner=0
+x_distance=740
+y_distance=2
+</object>
 </indicator>
 </window>
 </chart>
