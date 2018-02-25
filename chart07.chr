@@ -1,5 +1,6 @@
 <chart>
 id=131612470938807417
+comment=Only Run KRC Broker
 symbol=USDJPY_
 period=15
 leftpos=8376

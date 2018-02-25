@@ -1,5 +1,6 @@
 <chart>
 id=131628871862336330
+comment=Only Run KRC Broker
 symbol=EURUSD_
 period=15
 leftpos=3843
