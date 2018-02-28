@@ -1,12 +1,12 @@
 <chart>
 id=131594367643098593
 symbol=GBPUSD_
-period=30
-leftpos=5851
+period=15
+leftpos=4971
 digits=5
-scale=4
+scale=8
 graph=1
-fore=1
+fore=0
 grid=0
 volume=0
 scroll=1
@@ -23,7 +23,7 @@ window_left=638
 window_top=245
 window_right=1276
 window_bottom=490
-window_type=3
+window_type=1
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -348,6 +348,49 @@ weight_1=0
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\Bollin
+flags=339
+window_num=0
+<inputs>
+Period=13
+Deviation=4.0
+Shift=0
+Method=0
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=2763429
+style_0=0
+weight_0=1
+shift_1=0
+draw_1=0
+color_1=2763429
+style_1=0
+weight_1=1
+shift_2=0
+draw_2=0
+color_2=2763429
+style_2=0
+weight_2=1
+shift_3=0
+draw_3=3
+color_3=42495
+style_3=0
+weight_3=5
+arrow_3=251
+shift_4=0
+draw_4=3
+color_4=16777215
+style_4=0
+weight_4=5
+arrow_4=251
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -475,7 +518,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=38
+description=39
 color=55295
 font=Arial Black
 fontsize=9
