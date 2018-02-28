@@ -1,10 +1,10 @@
 <chart>
 id=131594367643098593
 symbol=GBPUSD_
-period=15
-leftpos=4971
+period=30
+leftpos=6138
 digits=5
-scale=8
+scale=16
 graph=1
 fore=0
 grid=0
@@ -41,6 +41,65 @@ height=271
 fixed_height=0
 <indicator>
 name=main
+<object>
+type=5
+object_name=Channel 31440
+period_flags=0
+create_time=1519811280
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1497139200
+value_0=1.249962
+time_1=1531612800
+value_1=1.409496
+time_2=1497139200
+value_2=1.326502
+ray=0
+</object>
+<object>
+type=2
+object_name=Trendline 31546
+period_flags=0
+create_time=1519811386
+color=16711680
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1509840000
+value_0=1.298953
+time_1=1521158400
+value_1=1.395649
+ray=0
+</object>
+<object>
+type=2
+object_name=Trendline 31557
+period_flags=0
+create_time=1519811397
+color=16711680
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1516233600
+value_0=1.440658
+time_1=1521072000
+value_1=1.389272
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -518,7 +577,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=39
+description=40
 color=55295
 font=Arial Black
 fontsize=9

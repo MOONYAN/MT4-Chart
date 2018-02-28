@@ -1,8 +1,8 @@
 <chart>
 id=131612464373349650
 symbol=GBPNZD_
-period=15
-leftpos=4816
+period=30
+leftpos=3375
 digits=5
 scale=8
 graph=1
@@ -41,6 +41,27 @@ height=271
 fixed_height=0
 <indicator>
 name=main
+<object>
+type=5
+object_name=Channel 31729
+period_flags=0
+create_time=1519811569
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1482624000
+value_0=1.672478
+time_1=1524960000
+value_1=1.847413
+time_2=1485043200
+value_2=1.861693
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -518,7 +539,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=63
+description=65
 color=55295
 font=Arial Black
 fontsize=9

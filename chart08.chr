@@ -1,10 +1,10 @@
 <chart>
 id=131642821836244660
 symbol=GBPAUD_
-period=15
-leftpos=4749
+period=30
+leftpos=3433
 digits=5
-scale=8
+scale=16
 graph=1
 fore=0
 grid=0
@@ -23,7 +23,7 @@ window_left=0
 window_top=0
 window_right=1368
 window_bottom=489
-window_type=3
+window_type=1
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -41,6 +41,67 @@ height=271
 fixed_height=0
 <indicator>
 name=main
+<object>
+type=5
+object_name=Channel 31052
+period_flags=0
+create_time=1519810892
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1486857600
+value_0=1.597941
+time_1=1531008000
+value_1=1.685631
+time_2=1489017600
+value_2=1.755043
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 31223
+period_flags=0
+create_time=1519811063
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1516924800
+value_0=1.732175
+time_1=1520107200
+value_1=1.775774
+time_2=1517176800
+value_2=1.776167
+ray=0
+</object>
+<object>
+type=2
+object_name=Trendline 32237
+period_flags=0
+create_time=1519812077
+color=16711680
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1517227200
+value_0=1.734663
+time_1=1520064000
+value_1=1.787558
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -518,7 +579,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=53
+description=50
 color=55295
 font=Arial Black
 fontsize=9

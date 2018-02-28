@@ -1,10 +1,10 @@
 <chart>
 id=131594262742984712
 symbol=GBPJPY_
-period=15
-leftpos=4883
+period=30
+leftpos=3386
 digits=3
-scale=8
+scale=4
 graph=1
 fore=0
 grid=0
@@ -41,6 +41,46 @@ height=271
 fixed_height=0
 <indicator>
 name=main
+<object>
+type=2
+object_name=Trendline 31650
+period_flags=0
+create_time=1519811490
+color=16711680
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1446336000
+value_0=191.197938
+time_1=1486857600
+value_1=128.514021
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 31665
+period_flags=0
+create_time=1519811505
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1490486400
+value_0=135.091134
+time_1=1527984000
+value_1=150.929897
+time_2=1491091200
+value_2=146.634639
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -518,7 +558,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=46
+description=44
 color=55295
 font=Arial Black
 fontsize=9

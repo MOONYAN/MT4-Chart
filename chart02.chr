@@ -1,10 +1,10 @@
 <chart>
 id=131642838665588280
 symbol=NZDJPY_
-period=15
-leftpos=4909
+period=30
+leftpos=3397
 digits=3
-scale=32
+scale=16
 graph=1
 fore=0
 grid=0
@@ -12,7 +12,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=0
+one_click=1
 one_click_btn=1
 askline=0
 days=1
@@ -23,7 +23,7 @@ window_left=286
 window_top=286
 window_right=1602
 window_bottom=900
-window_type=1
+window_type=3
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -41,6 +41,27 @@ height=271
 fixed_height=0
 <indicator>
 name=main
+<object>
+type=5
+object_name=Channel 32839
+period_flags=0
+create_time=1519812679
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1490486400
+value_0=75.694536
+time_1=1526169600
+value_1=76.242337
+time_2=1490486400
+value_2=83.777062
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -518,7 +539,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=50
+description=44
 color=55295
 font=Arial Black
 fontsize=9
