@@ -2,9 +2,9 @@
 id=131594262742984712
 symbol=GBPJPY_
 period=30
-leftpos=3386
+leftpos=8223
 digits=3
-scale=4
+scale=16
 graph=1
 fore=0
 grid=0
@@ -23,7 +23,7 @@ window_left=638
 window_top=490
 window_right=1276
 window_bottom=735
-window_type=1
+window_type=3
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -73,12 +73,65 @@ filling=0
 selectable=1
 hidden=0
 zorder=0
-time_0=1490486400
-value_0=135.091134
-time_1=1527984000
-value_1=150.929897
+time_0=1492300800
+value_0=135.587000
+time_1=1521331200
+value_1=147.316527
 time_2=1491091200
 value_2=146.634639
+ray=0
+</object>
+<object>
+type=22
+object_name=#3421605 sell 0.01 GBPJPY_ at 146.77800
+period_flags=0
+create_time=1519861577
+color=255
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519848250
+value_0=146.778000
+</object>
+<object>
+type=22
+object_name=#3421605 sell 0.01 GBPJPY_ at 146.778 close at 146.762
+period_flags=0
+create_time=1519861577
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519861331
+value_0=146.762000
+</object>
+<object>
+type=2
+object_name=#3421605 146.778 -> 146.762
+period_flags=0
+create_time=1519861577
+color=255
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519848250
+value_0=146.778000
+time_1=1519861331
+value_1=146.762000
 ray=0
 </object>
 </indicator>
@@ -431,6 +484,16 @@ arrow_4=251
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Parabolic SAR
+step=0.0100
+end=0.1000
+color=16777215
+style=0
+weight=5
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -558,7 +621,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=44
+description=37
 color=55295
 font=Arial Black
 fontsize=9
@@ -579,7 +642,7 @@ object_name=spread/swap monitor3
 period_flags=0
 create_time=1519809986
 description=Buy Swap :
-color=16711680
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -598,8 +661,8 @@ type=23
 object_name=spread/swap monitor4
 period_flags=0
 create_time=1519809986
-description=0.24
-color=16711680
+description=0.240000
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -619,7 +682,7 @@ object_name=spread/swap monitor5
 period_flags=0
 create_time=1519809986
 description=Sell Swap :
-color=255
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -638,8 +701,8 @@ type=23
 object_name=spread/swap monitor6
 period_flags=0
 create_time=1519809986
-description=-3.36
-color=255
+description=-3.360000
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0

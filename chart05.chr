@@ -2,9 +2,9 @@
 id=131612464373349650
 symbol=GBPNZD_
 period=30
-leftpos=3375
+leftpos=3458
 digits=5
-scale=8
+scale=32
 graph=1
 fore=0
 grid=0
@@ -60,6 +60,25 @@ time_1=1524960000
 value_1=1.847413
 time_2=1485043200
 value_2=1.861693
+ray=0
+</object>
+<object>
+type=2
+object_name=Trendline 43874
+period_flags=0
+create_time=1519823714
+color=16711680
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1503187200
+value_0=1.756840
+time_1=1522540800
+value_1=1.924554
 ray=0
 </object>
 </indicator>
@@ -412,6 +431,16 @@ arrow_4=251
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Parabolic SAR
+step=0.0100
+end=0.1000
+color=16777215
+style=0
+weight=5
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -539,7 +568,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=65
+description=71
 color=55295
 font=Arial Black
 fontsize=9
@@ -560,7 +589,7 @@ object_name=spread/swap monitor3
 period_flags=0
 create_time=1519809986
 description=Buy Swap :
-color=16711680
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -579,8 +608,8 @@ type=23
 object_name=spread/swap monitor4
 period_flags=0
 create_time=1519809986
-description=-14.64
-color=16711680
+description=-14.640000
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -600,7 +629,7 @@ object_name=spread/swap monitor5
 period_flags=0
 create_time=1519809986
 description=Sell Swap :
-color=255
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -619,8 +648,8 @@ type=23
 object_name=spread/swap monitor6
 period_flags=0
 create_time=1519809986
-description=1.12
-color=255
+description=1.120000
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0

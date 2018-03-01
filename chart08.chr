@@ -2,11 +2,11 @@
 id=131642821836244660
 symbol=GBPAUD_
 period=30
-leftpos=3433
+leftpos=5186
 digits=5
-scale=16
+scale=32
 graph=1
-fore=0
+fore=1
 grid=0
 volume=0
 scroll=1
@@ -100,6 +100,93 @@ time_0=1517227200
 value_0=1.734663
 time_1=1520064000
 value_1=1.787558
+ray=0
+</object>
+<object>
+type=22
+object_name=#3409581 sell 0.01 GBPAUD_ at 1.77386
+period_flags=0
+create_time=1519831963
+color=255
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519315813
+value_0=1.773860
+</object>
+<object>
+type=22
+object_name=#3409581 sell 0.01 GBPAUD_ at 1.77386 stop loss at 1.77114
+period_flags=0
+create_time=1519831963
+color=255
+weight=1
+background=0
+symbol_code=4
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519315813
+value_0=1.771140
+</object>
+<object>
+type=22
+object_name=#3409581 sell 0.01 GBPAUD_ at 1.77386 take profit at 1.76491
+period_flags=0
+create_time=1519831963
+color=16711680
+weight=1
+background=0
+symbol_code=4
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519315813
+value_0=1.764910
+</object>
+<object>
+type=22
+object_name=#3409581 sell 0.01 GBPAUD_ at 1.77386 close at 1.76838
+period_flags=0
+create_time=1519831963
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519822738
+value_0=1.768380
+</object>
+<object>
+type=2
+object_name=#3409581 1.77386 -> 1.76838
+period_flags=0
+create_time=1519831963
+color=255
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519315813
+value_0=1.773860
+time_1=1519822738
+value_1=1.768380
 ray=0
 </object>
 </indicator>
@@ -397,7 +484,7 @@ arrowsDnCode=234
 </inputs>
 </expert>
 shift_0=0
-draw_0=2
+draw_0=0
 color_0=0
 style_0=0
 weight_0=0
@@ -449,6 +536,16 @@ color_4=16777215
 style_4=0
 weight_4=5
 arrow_4=251
+period_flags=0
+show_data=1
+</indicator>
+<indicator>
+name=Parabolic SAR
+step=0.0100
+end=0.1000
+color=16777215
+style=0
+weight=5
 period_flags=0
 show_data=1
 </indicator>
@@ -549,9 +646,9 @@ window_num=3
 </expert>
 shift_0=0
 draw_0=0
-color_0=4294967295
+color_0=16776960
 style_0=0
-weight_0=0
+weight_0=3
 period_flags=0
 show_data=1
 <object>
@@ -579,7 +676,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=50
+description=55
 color=55295
 font=Arial Black
 fontsize=9
@@ -600,7 +697,7 @@ object_name=spread/swap monitor3
 period_flags=0
 create_time=1519809986
 description=Buy Swap :
-color=16711680
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -619,8 +716,8 @@ type=23
 object_name=spread/swap monitor4
 period_flags=0
 create_time=1519809986
-description=-13.80
-color=16711680
+description=-13.800000
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -640,7 +737,7 @@ object_name=spread/swap monitor5
 period_flags=0
 create_time=1519809986
 description=Sell Swap :
-color=255
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
@@ -659,8 +756,8 @@ type=23
 object_name=spread/swap monitor6
 period_flags=0
 create_time=1519809986
-description=1.20
-color=255
+description=1.200000
+color=16777215
 font=Arial Black
 fontsize=9
 angle=0
