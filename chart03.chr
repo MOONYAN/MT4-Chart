@@ -2,9 +2,9 @@
 id=131594215772620496
 symbol=AUDJPY_
 period=30
-leftpos=2889
+leftpos=2745
 digits=3
-scale=16
+scale=2
 graph=1
 fore=0
 grid=0
@@ -244,7 +244,7 @@ Method=0
 </expert>
 shift_0=0
 draw_0=0
-color_0=2763429
+color_0=65535
 style_0=0
 weight_0=1
 shift_1=0
@@ -318,39 +318,6 @@ show_data=1
 <indicator>
 name=Custom Indicator
 <expert>
-name=Mr. fatcat\signal001
-flags=339
-window_num=0
-<inputs>
-TimeFrame=Current time frame
-壓力與支撐=true
-AccStep=0.02
-AccLimit=0.2
-快線周期=12
-慢線周期=120
-ShowArrows=false
-arrowsUpColor=3329330
-arrowsDnColor=255
-arrowsUpCode=233
-arrowsDnCode=234
-</inputs>
-</expert>
-shift_0=0
-draw_0=2
-color_0=0
-style_0=0
-weight_0=0
-shift_1=0
-draw_1=2
-color_1=0
-style_1=0
-weight_1=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
 name=Owen\Bollin
 flags=339
 window_num=0
@@ -363,7 +330,7 @@ Method=0
 </expert>
 shift_0=0
 draw_0=0
-color_0=2763429
+color_0=65535
 style_0=0
 weight_0=1
 shift_1=0
@@ -378,13 +345,13 @@ style_2=0
 weight_2=1
 shift_3=0
 draw_3=3
-color_3=42495
+color_3=255
 style_3=0
 weight_3=5
 arrow_3=251
 shift_4=0
 draw_4=3
-color_4=16777215
+color_4=16776960
 style_4=0
 weight_4=5
 arrow_4=251

@@ -2,9 +2,9 @@
 id=131594367643098593
 symbol=GBPUSD_
 period=30
-leftpos=25121
+leftpos=25114
 digits=5
-scale=32
+scale=16
 graph=1
 fore=0
 grid=0
@@ -23,7 +23,7 @@ window_left=638
 window_top=245
 window_right=1276
 window_bottom=490
-window_type=1
+window_type=3
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -98,6 +98,55 @@ time_0=1516233600
 value_0=1.440658
 time_1=1521072000
 value_1=1.389272
+ray=0
+</object>
+<object>
+type=1
+object_name=Horizontal Line 40129
+period_flags=0
+create_time=1519951041
+color=65535
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=1.368200
+</object>
+<object>
+type=1
+object_name=Horizontal Line 40166
+period_flags=0
+create_time=1519951078
+color=65535
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=1.350300
+</object>
+<object>
+type=2
+object_name=Trendline 45280
+period_flags=0
+create_time=1519956192
+color=16711680
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519642800
+value_0=1.406740
+time_1=1519995600
+value_1=1.374728
 ray=0
 </object>
 </indicator>
@@ -303,7 +352,7 @@ Method=0
 </expert>
 shift_0=0
 draw_0=0
-color_0=2763429
+color_0=65535
 style_0=0
 weight_0=1
 shift_1=0
@@ -377,39 +426,6 @@ show_data=1
 <indicator>
 name=Custom Indicator
 <expert>
-name=Mr. fatcat\signal001
-flags=339
-window_num=0
-<inputs>
-TimeFrame=Current time frame
-壓力與支撐=true
-AccStep=0.02
-AccLimit=0.2
-快線周期=12
-慢線周期=120
-ShowArrows=false
-arrowsUpColor=3329330
-arrowsDnColor=255
-arrowsUpCode=233
-arrowsDnCode=234
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-shift_1=0
-draw_1=2
-color_1=0
-style_1=0
-weight_1=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
 name=Owen\Bollin
 flags=339
 window_num=0
@@ -422,7 +438,7 @@ Method=0
 </expert>
 shift_0=0
 draw_0=0
-color_0=2763429
+color_0=65535
 style_0=0
 weight_0=1
 shift_1=0
@@ -437,26 +453,16 @@ style_2=0
 weight_2=1
 shift_3=0
 draw_3=3
-color_3=42495
+color_3=255
 style_3=0
 weight_3=5
 arrow_3=251
 shift_4=0
 draw_4=3
-color_4=16777215
+color_4=16776960
 style_4=0
 weight_4=5
 arrow_4=251
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Parabolic SAR
-step=0.0100
-end=0.1000
-color=16777215
-style=0
-weight=5
 period_flags=0
 show_data=1
 </indicator>
@@ -587,7 +593,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=37
+description=40
 color=55295
 font=Arial Black
 fontsize=9
