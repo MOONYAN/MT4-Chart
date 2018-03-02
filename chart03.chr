@@ -1,10 +1,11 @@
 <chart>
 id=131594215772620496
+comment=Only Run KRC Broker
 symbol=AUDJPY_
-period=30
-leftpos=2745
+period=60
+leftpos=2868
 digits=3
-scale=2
+scale=16
 graph=1
 fore=0
 grid=0
@@ -358,6 +359,50 @@ arrow_4=251
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\SarWall
+flags=339
+window_num=0
+<inputs>
+Step=0.002
+Maximum=0.2
+SupportColor=16711680
+PressureColor=65535
+TimeFrame=10080
+</inputs>
+</expert>
+shift_0=0
+draw_0=12
+color_0=65535
+style_0=0
+weight_0=1
+period_flags=0
+show_data=1
+</indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\SarWall
+flags=339
+window_num=0
+<inputs>
+Step=0.002
+Maximum=0.2
+SupportColor=16776960
+PressureColor=255
+TimeFrame=1440
+</inputs>
+</expert>
+shift_0=0
+draw_0=12
+color_0=65535
+style_0=0
+weight_0=1
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -485,7 +530,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=47
+description=46
 color=55295
 font=Arial Black
 fontsize=9
@@ -506,7 +551,7 @@ object_name=spread/swap monitor3
 period_flags=0
 create_time=1519809986
 description=Buy Swap :
-color=16777215
+color=16711680
 font=Arial Black
 fontsize=9
 angle=0
@@ -525,8 +570,8 @@ type=23
 object_name=spread/swap monitor4
 period_flags=0
 create_time=1519809986
-description=0.880000
-color=16777215
+description=0.88
+color=16711680
 font=Arial Black
 fontsize=9
 angle=0
@@ -546,7 +591,7 @@ object_name=spread/swap monitor5
 period_flags=0
 create_time=1519809986
 description=Sell Swap :
-color=16777215
+color=255
 font=Arial Black
 fontsize=9
 angle=0
@@ -565,8 +610,8 @@ type=23
 object_name=spread/swap monitor6
 period_flags=0
 create_time=1519809986
-description=-9.600000
-color=16777215
+description=-9.60
+color=255
 font=Arial Black
 fontsize=9
 angle=0

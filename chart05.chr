@@ -1,10 +1,10 @@
 <chart>
 id=131612464373349650
 symbol=GBPNZD_
-period=30
-leftpos=3298
+period=15
+leftpos=5021
 digits=5
-scale=4
+scale=8
 graph=1
 fore=0
 grid=0
@@ -79,6 +79,25 @@ time_0=1503187200
 value_0=1.756840
 time_1=1522540800
 value_1=1.924554
+ray=0
+</object>
+<object>
+type=2
+object_name=Trendline 5213
+period_flags=0
+create_time=1519981661
+color=16711680
+style=0
+weight=3
+background=1
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1519808400
+value_0=1.927380
+time_1=1519988400
+value_1=1.892248
 ray=0
 </object>
 </indicator>
@@ -398,6 +417,50 @@ arrow_4=251
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\SarWall
+flags=339
+window_num=0
+<inputs>
+Step=0.002
+Maximum=0.2
+SupportColor=16711680
+PressureColor=65535
+TimeFrame=10080
+</inputs>
+</expert>
+shift_0=0
+draw_0=12
+color_0=65535
+style_0=0
+weight_0=1
+period_flags=0
+show_data=1
+</indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\SarWall
+flags=339
+window_num=0
+<inputs>
+Step=0.002
+Maximum=0.2
+SupportColor=16776960
+PressureColor=255
+TimeFrame=1440
+</inputs>
+</expert>
+shift_0=0
+draw_0=12
+color_0=65535
+style_0=0
+weight_0=1
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -525,7 +588,7 @@ type=23
 object_name=spread/swap monitor2
 period_flags=0
 create_time=1519809986
-description=59
+description=63
 color=55295
 font=Arial Black
 fontsize=9
@@ -546,7 +609,7 @@ object_name=spread/swap monitor3
 period_flags=0
 create_time=1519809986
 description=Buy Swap :
-color=16777215
+color=16711680
 font=Arial Black
 fontsize=9
 angle=0
@@ -565,8 +628,8 @@ type=23
 object_name=spread/swap monitor4
 period_flags=0
 create_time=1519809986
-description=-14.640000
-color=16777215
+description=-14.64
+color=16711680
 font=Arial Black
 fontsize=9
 angle=0
@@ -586,7 +649,7 @@ object_name=spread/swap monitor5
 period_flags=0
 create_time=1519809986
 description=Sell Swap :
-color=16777215
+color=255
 font=Arial Black
 fontsize=9
 angle=0
@@ -605,8 +668,8 @@ type=23
 object_name=spread/swap monitor6
 period_flags=0
 create_time=1519809986
-description=1.120000
-color=16777215
+description=1.12
+color=255
 font=Arial Black
 fontsize=9
 angle=0
