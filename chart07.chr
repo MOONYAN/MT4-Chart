@@ -1,12 +1,12 @@
 <chart>
-id=131594367643098593
-symbol=GBPUSD_
+id=131652555705267743
+symbol=GBPNZD_
 period=60
-leftpos=14141
+leftpos=2833
 digits=5
-scale=32
+scale=8
 graph=1
-fore=1
+fore=0
 grid=0
 volume=0
 scroll=1
@@ -19,11 +19,11 @@ days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=638
-window_top=245
-window_right=1276
-window_bottom=490
-window_type=3
+window_left=156
+window_top=156
+window_right=1411
+window_bottom=770
+window_type=1
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -41,114 +41,6 @@ height=271
 fixed_height=0
 <indicator>
 name=main
-<object>
-type=5
-object_name=Channel 31440
-period_flags=0
-create_time=1519811280
-color=16777215
-style=0
-weight=3
-background=0
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1497139200
-value_0=1.249962
-time_1=1531612800
-value_1=1.409496
-time_2=1497139200
-value_2=1.326502
-ray=0
-</object>
-<object>
-type=2
-object_name=Trendline 31546
-period_flags=0
-create_time=1519811386
-color=16711680
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1509840000
-value_0=1.298953
-time_1=1521158400
-value_1=1.395649
-ray=0
-</object>
-<object>
-type=2
-object_name=Trendline 31557
-period_flags=0
-create_time=1519811397
-color=16711680
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1516233600
-value_0=1.440658
-time_1=1521072000
-value_1=1.389272
-ray=0
-</object>
-<object>
-type=1
-object_name=Horizontal Line 40129
-period_flags=0
-create_time=1519951041
-color=65535
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-value_0=1.368200
-</object>
-<object>
-type=1
-object_name=Horizontal Line 40166
-period_flags=0
-create_time=1519951078
-color=65535
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-value_0=1.350300
-</object>
-<object>
-type=2
-object_name=Trendline 45280
-period_flags=0
-create_time=1519956192
-color=16711680
-style=0
-weight=3
-background=1
-filling=0
-selectable=1
-hidden=0
-zorder=0
-time_0=1519642800
-value_0=1.406740
-time_1=1519995600
-value_1=1.374728
-ray=0
-</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -156,7 +48,7 @@ step=0.0020
 end=0.2000
 color=65535
 style=0
-weight=2
+weight=3
 period_flags=0
 show_data=1
 </indicator>
@@ -166,7 +58,7 @@ step=0.0050
 end=0.5000
 color=255
 style=0
-weight=2
+weight=3
 period_flags=0
 show_data=1
 </indicator>
@@ -176,7 +68,7 @@ step=0.0080
 end=0.8000
 color=16711680
 style=0
-weight=2
+weight=3
 period_flags=0
 show_data=1
 </indicator>
@@ -338,6 +230,18 @@ period_flags=0
 show_data=1
 </indicator>
 <indicator>
+name=Moving Average
+period=568
+shift=0
+method=1
+apply=0
+color=16777215
+style=0
+weight=3
+period_flags=0
+show_data=1
+</indicator>
+<indicator>
 name=Custom Indicator
 <expert>
 name=Owen\Bollin
@@ -357,12 +261,12 @@ style_0=0
 weight_0=1
 shift_1=0
 draw_1=0
-color_1=2763429
+color_1=2970272
 style_1=0
 weight_1=1
 shift_2=0
 draw_2=0
-color_2=2763429
+color_2=2970272
 style_2=0
 weight_2=1
 shift_3=0
@@ -377,49 +281,6 @@ color_4=16776960
 style_4=0
 weight_4=5
 arrow_4=251
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Moving Average
-period=568
-shift=0
-method=1
-apply=0
-color=16776960
-style=0
-weight=3
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=Mr. fatcat\i-Regr
-flags=339
-window_num=0
-<inputs>
-degree=3
-kstd=2.7
-bars=567
-shift=15
-</inputs>
-</expert>
-shift_0=15
-draw_0=0
-color_0=3329330
-style_0=0
-weight_0=0
-shift_1=15
-draw_1=0
-color_1=55295
-style_1=0
-weight_1=0
-shift_2=15
-draw_2=0
-color_2=55295
-style_2=0
-weight_2=0
 period_flags=0
 show_data=1
 </indicator>
@@ -443,12 +304,12 @@ style_0=0
 weight_0=1
 shift_1=0
 draw_1=0
-color_1=2763429
+color_1=2970272
 style_1=0
 weight_1=1
 shift_2=0
 draw_2=0
-color_2=2763429
+color_2=2970272
 style_2=0
 weight_2=1
 shift_3=0
@@ -463,28 +324,6 @@ color_4=16776960
 style_4=0
 weight_4=5
 arrow_4=251
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=Owen\SarWall
-flags=339
-window_num=0
-<inputs>
-Step=0.002
-Maximum=0.2
-SupportColor=16711680
-PressureColor=65535
-TimeFrame=10080
-</inputs>
-</expert>
-shift_0=0
-draw_0=12
-color_0=65535
-style_0=0
-weight_0=1
 period_flags=0
 show_data=1
 </indicator>
@@ -616,7 +455,7 @@ show_data=1
 type=23
 object_name=spread/swap monitor1
 period_flags=0
-create_time=1519809986
+create_time=1520782532
 description=Current Spread :
 color=55295
 font=Arial Black
@@ -636,8 +475,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor2
 period_flags=0
-create_time=1519809986
-description=39
+create_time=1520782532
+description=71
 color=55295
 font=Arial Black
 fontsize=9
@@ -656,7 +495,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor3
 period_flags=0
-create_time=1519809986
+create_time=1520782532
 description=Buy Swap :
 color=16711680
 font=Arial Black
@@ -676,8 +515,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor4
 period_flags=0
-create_time=1519809986
-description=-7.20
+create_time=1520782532
+description=-14.64
 color=16711680
 font=Arial Black
 fontsize=9
@@ -696,7 +535,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor5
 period_flags=0
-create_time=1519809986
+create_time=1520782532
 description=Sell Swap :
 color=255
 font=Arial Black
@@ -716,8 +555,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor6
 period_flags=0
-create_time=1519809986
-description=0.64
+create_time=1520782532
+description=1.12
 color=255
 font=Arial Black
 fontsize=9
