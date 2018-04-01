@@ -1,10 +1,11 @@
 <chart>
 id=131664492468612309
+comment=DoubleSAR OnCalculate PERIOD_M15
 symbol=XAUUSD_
-period=60
-leftpos=2120
+period=15
+leftpos=29487
 digits=2
-scale=16
+scale=4
 graph=1
 fore=0
 grid=0
@@ -23,7 +24,7 @@ window_left=0
 window_top=0
 window_right=1070
 window_bottom=631
-window_type=3
+window_type=1
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -373,6 +374,30 @@ weight_0=1
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\DoubleSAR
+flags=339
+window_num=0
+<inputs>
+StepShort=0.008
+StepMid=0.005
+MaximumShort=0.8
+MaximumMid=0.5
+Timeframe=15
+BuyMessage=Beerus
+SellMessage=Saiyans
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=0
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -479,7 +504,7 @@ show_data=1
 type=23
 object_name=spread/swap monitor1
 period_flags=0
-create_time=1520782532
+create_time=1522599502
 description=Current Spread :
 color=55295
 font=Arial Black
@@ -499,8 +524,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor2
 period_flags=0
-create_time=1520782532
-description=48
+create_time=1522599502
+description=78
 color=55295
 font=Arial Black
 fontsize=9
@@ -519,7 +544,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor3
 period_flags=0
-create_time=1520782532
+create_time=1522599502
 description=Buy Swap :
 color=16711680
 font=Arial Black
@@ -539,7 +564,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor4
 period_flags=0
-create_time=1520782532
+create_time=1522599502
 description=-0.01
 color=16711680
 font=Arial Black
@@ -559,7 +584,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor5
 period_flags=0
-create_time=1520782532
+create_time=1522599502
 description=Sell Swap :
 color=255
 font=Arial Black
@@ -579,7 +604,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor6
 period_flags=0
-create_time=1520782532
+create_time=1522599502
 description=0.00
 color=255
 font=Arial Black

@@ -1,10 +1,11 @@
 <chart>
-id=131664492621684733
-symbol=GBPAUD_
-period=60
-leftpos=2506
-digits=5
-scale=16
+id=131664492941736652
+comment=DoubleSAR OnCalculate PERIOD_M15
+symbol=USDJPY_
+period=15
+leftpos=2987
+digits=3
+scale=4
 graph=1
 fore=0
 grid=0
@@ -19,10 +20,10 @@ days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=26
-window_top=26
-window_right=1100
-window_bottom=661
+window_left=130
+window_top=130
+window_right=1204
+window_bottom=744
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -373,6 +374,30 @@ weight_0=1
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\DoubleSAR
+flags=339
+window_num=0
+<inputs>
+StepShort=0.008
+StepMid=0.005
+MaximumShort=0.8
+MaximumMid=0.5
+Timeframe=15
+BuyMessage=Beerus
+SellMessage=Saiyans
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=0
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -479,7 +504,7 @@ show_data=1
 type=23
 object_name=spread/swap monitor1
 period_flags=0
-create_time=1520782532
+create_time=1522599516
 description=Current Spread :
 color=55295
 font=Arial Black
@@ -499,8 +524,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor2
 period_flags=0
-create_time=1520782532
-description=107
+create_time=1522599516
+description=51
 color=55295
 font=Arial Black
 fontsize=9
@@ -519,7 +544,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor3
 period_flags=0
-create_time=1520782532
+create_time=1522599516
 description=Buy Swap :
 color=16711680
 font=Arial Black
@@ -539,8 +564,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor4
 period_flags=0
-create_time=1520782532
-description=-13.80
+create_time=1522599516
+description=0.72
 color=16711680
 font=Arial Black
 fontsize=9
@@ -559,7 +584,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor5
 period_flags=0
-create_time=1520782532
+create_time=1522599516
 description=Sell Swap :
 color=255
 font=Arial Black
@@ -579,8 +604,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor6
 period_flags=0
-create_time=1520782532
-description=1.20
+create_time=1522599516
+description=-7.92
 color=255
 font=Arial Black
 fontsize=9
