@@ -1,11 +1,10 @@
 <chart>
-id=131666289108445218
-comment=DoubleSAR OnCalculate PERIOD_M15
-symbol=GBPAUD_
+id=131664492941736652
+symbol=USDJPY_
 period=15
-leftpos=7968
-digits=5
-scale=4
+leftpos=4666
+digits=3
+scale=16
 graph=1
 fore=0
 grid=0
@@ -20,10 +19,10 @@ days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=130
-window_top=130
-window_right=990
-window_bottom=514
+window_left=0
+window_top=178
+window_right=425
+window_bottom=356
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -42,6 +41,101 @@ height=271
 fixed_height=0
 <indicator>
 name=main
+<object>
+type=22
+object_name=#3489096 sell 0.01 USDJPY_ at 105.78100
+period_flags=0
+create_time=1524023207
+color=255
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1522738475
+value_0=105.781000
+</object>
+<object>
+type=22
+object_name=#3489096 sell 0.01 USDJPY_ at 105.781 close at 106.988
+period_flags=0
+create_time=1524023207
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523985459
+value_0=106.988000
+</object>
+<object>
+type=2
+object_name=#3489096 105.781 -> 106.988
+period_flags=0
+create_time=1524023207
+color=255
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1522738475
+value_0=105.781000
+time_1=1523985459
+value_1=106.988000
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 17441
+period_flags=0
+create_time=1524057121
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1515369600
+value_0=113.387000
+time_1=1522022400
+value_1=104.457710
+time_2=1515456000
+value_2=110.616243
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 16744
+period_flags=0
+create_time=1524121960
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523980800
+value_0=106.936000
+time_1=1524232800
+value_1=107.502509
+time_2=1523988000
+value_2=107.273438
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -81,25 +175,6 @@ flags=339
 window_num=0
 <inputs>
 FontSize=36
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=KRC\b-clock
-flags=339
-window_num=0
-<inputs>
-ClockColor=55295
-size=16
 </inputs>
 </expert>
 shift_0=0
@@ -398,6 +473,26 @@ weight_0=0
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\ClockTimer
+flags=339
+window_num=0
+<inputs>
+FontSize=16
+FontName=Trebuchet MS
+FontColor=16776960
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=4294967295
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -504,7 +599,7 @@ show_data=1
 type=23
 object_name=spread/swap monitor1
 period_flags=0
-create_time=1522599534
+create_time=1523809329
 description=Current Spread :
 color=55295
 font=Arial Black
@@ -524,8 +619,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor2
 period_flags=0
-create_time=1522599534
-description=113
+create_time=1523809329
+description=33
 color=55295
 font=Arial Black
 fontsize=9
@@ -544,7 +639,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor3
 period_flags=0
-create_time=1522599534
+create_time=1523809329
 description=Buy Swap :
 color=16711680
 font=Arial Black
@@ -564,8 +659,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor4
 period_flags=0
-create_time=1522599534
-description=-13.80
+create_time=1523809329
+description=0.72
 color=16711680
 font=Arial Black
 fontsize=9
@@ -584,7 +679,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor5
 period_flags=0
-create_time=1522599534
+create_time=1523809329
 description=Sell Swap :
 color=255
 font=Arial Black
@@ -604,8 +699,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor6
 period_flags=0
-create_time=1522599534
-description=1.20
+create_time=1523809329
+description=-7.92
 color=255
 font=Arial Black
 fontsize=9

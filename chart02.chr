@@ -1,11 +1,10 @@
 <chart>
-id=131664492941736652
-comment=DoubleSAR OnCalculate PERIOD_M15
-symbol=USDJPY_
+id=131664492771128111
+symbol=GBPJPY_
 period=15
-leftpos=2987
+leftpos=7578
 digits=3
-scale=4
+scale=32
 graph=1
 fore=0
 grid=0
@@ -13,18 +12,18 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=0
+one_click=1
 one_click_btn=1
 askline=0
 days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=130
-window_top=130
-window_right=1204
-window_bottom=744
-window_type=1
+window_left=0
+window_top=356
+window_right=425
+window_bottom=534
+window_type=3
 background_color=0
 foreground_color=16777215
 barup_color=255
@@ -42,6 +41,292 @@ height=271
 fixed_height=0
 <indicator>
 name=main
+<object>
+type=22
+object_name=#3496802 buy 0.02 GBPJPY_ at 153.09000
+period_flags=0
+create_time=1523866349
+color=16711680
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523599442
+value_0=153.090000
+</object>
+<object>
+type=22
+object_name=#3496802 buy 0.02 GBPJPY_ at 153.090 close at 153.625
+period_flags=0
+create_time=1523866349
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523606420
+value_0=153.625000
+</object>
+<object>
+type=2
+object_name=#3496802 153.090 -> 153.625
+period_flags=0
+create_time=1523866349
+color=16711680
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523599442
+value_0=153.090000
+time_1=1523606420
+value_1=153.625000
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 24839
+period_flags=0
+create_time=1523867911
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1489881600
+value_0=134.596971
+time_1=1535241600
+value_1=150.524350
+time_2=1491696000
+value_2=147.945631
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 24868
+period_flags=0
+create_time=1523867940
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1521230400
+value_0=146.995825
+time_1=1524643200
+value_1=151.025677
+time_2=1521432000
+value_2=149.762816
+ray=0
+</object>
+<object>
+type=5
+object_name=Channel 24939
+period_flags=0
+create_time=1523868011
+color=16777215
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1522958400
+value_0=149.823476
+time_1=1524110400
+value_1=153.311392
+time_2=1522969200
+value_2=151.052602
+ray=0
+</object>
+<object>
+type=22
+object_name=#3498472 sell 0.02 GBPJPY_ at 153.42900
+period_flags=0
+create_time=1523955724
+color=255
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523944222
+value_0=153.429000
+</object>
+<object>
+type=22
+object_name=#3498472 sell 0.02 GBPJPY_ at 153.429 close at 153.431
+period_flags=0
+create_time=1523955724
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523954713
+value_0=153.431000
+</object>
+<object>
+type=22
+object_name=#3497592 sell 0.02 GBPJPY_ at 152.81400
+period_flags=0
+create_time=1524025623
+color=255
+weight=1
+background=0
+symbol_code=1
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523847298
+value_0=152.814000
+</object>
+<object>
+type=22
+object_name=#3497592 sell 0.02 GBPJPY_ at 152.814 close at 152.868
+period_flags=0
+create_time=1524025623
+color=2139610
+weight=1
+background=0
+symbol_code=3
+anchor_pos=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523984707
+value_0=152.868000
+</object>
+<object>
+type=2
+object_name=#3497592 152.814 -> 152.868
+period_flags=0
+create_time=1524025623
+color=255
+style=2
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523847298
+value_0=152.814000
+time_1=1523984707
+value_1=152.868000
+ray=0
+</object>
+<object>
+type=1
+object_name=Horizontal Line 58579
+period_flags=0
+create_time=1524032723
+color=16777215
+style=0
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=153.527963
+</object>
+<object>
+type=1
+object_name=Horizontal Line 275
+period_flags=0
+create_time=1524039955
+color=16777215
+style=0
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=154.424134
+</object>
+<object>
+type=1
+object_name=Horizontal Line 47122
+period_flags=0
+create_time=1524217874
+color=16777215
+style=0
+weight=1
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+value_0=151.484000
+</object>
+<object>
+type=2
+object_name=Trendline 45233
+period_flags=0
+create_time=1524478129
+color=42495
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1523995200
+value_0=152.371602
+time_1=1524456000
+value_1=150.322091
+ray=0
+</object>
+<object>
+type=2
+object_name=Trendline 45257
+period_flags=0
+create_time=1524478153
+color=42495
+style=0
+weight=3
+background=0
+filling=0
+selectable=1
+hidden=0
+zorder=0
+time_0=1524139200
+value_0=152.940000
+time_1=1524441600
+value_1=150.292951
+ray=0
+</object>
 </indicator>
 <indicator>
 name=Parabolic SAR
@@ -81,25 +366,6 @@ flags=339
 window_num=0
 <inputs>
 FontSize=36
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=KRC\b-clock
-flags=339
-window_num=0
-<inputs>
-ClockColor=55295
-size=16
 </inputs>
 </expert>
 shift_0=0
@@ -398,6 +664,36 @@ weight_0=0
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\ClockTimer
+flags=339
+window_num=0
+<inputs>
+FontSize=16
+FontName=Trebuchet MS
+FontColor=16776960
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=4294967295
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+</indicator>
+<indicator>
+name=Parabolic SAR
+step=0.0200
+end=0.2000
+color=16777215
+style=0
+weight=1
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -504,7 +800,7 @@ show_data=1
 type=23
 object_name=spread/swap monitor1
 period_flags=0
-create_time=1522599516
+create_time=1523809264
 description=Current Spread :
 color=55295
 font=Arial Black
@@ -524,8 +820,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor2
 period_flags=0
-create_time=1522599516
-description=51
+create_time=1523809264
+description=45
 color=55295
 font=Arial Black
 fontsize=9
@@ -544,7 +840,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor3
 period_flags=0
-create_time=1522599516
+create_time=1523809264
 description=Buy Swap :
 color=16711680
 font=Arial Black
@@ -564,8 +860,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor4
 period_flags=0
-create_time=1522599516
-description=0.72
+create_time=1523809264
+description=0.24
 color=16711680
 font=Arial Black
 fontsize=9
@@ -584,7 +880,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor5
 period_flags=0
-create_time=1522599516
+create_time=1523809264
 description=Sell Swap :
 color=255
 font=Arial Black
@@ -604,8 +900,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor6
 period_flags=0
-create_time=1522599516
-description=-7.92
+create_time=1523809264
+description=-3.36
 color=255
 font=Arial Black
 fontsize=9

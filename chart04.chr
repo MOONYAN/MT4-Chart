@@ -1,10 +1,10 @@
 <chart>
-id=131664492987646930
-comment=DoubleSAR OnCalculate PERIOD_M15
-symbol=NZDJPY_
-period=15
-leftpos=2985
-digits=3
+id=131664492838979063
+comment=Only Run KRC Broker
+symbol=GBPUSD_
+period=60
+leftpos=8519
+digits=5
 scale=4
 graph=1
 fore=0
@@ -20,10 +20,10 @@ days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=182
-window_top=182
-window_right=1256
-window_bottom=796
+window_left=425
+window_top=0
+window_right=850
+window_bottom=178
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -81,25 +81,6 @@ flags=339
 window_num=0
 <inputs>
 FontSize=36
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=KRC\b-clock
-flags=339
-window_num=0
-<inputs>
-ClockColor=55295
-size=16
 </inputs>
 </expert>
 shift_0=0
@@ -398,6 +379,26 @@ weight_0=0
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\ClockTimer
+flags=339
+window_num=0
+<inputs>
+FontSize=16
+FontName=Trebuchet MS
+FontColor=16776960
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=4294967295
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
@@ -504,7 +505,7 @@ show_data=1
 type=23
 object_name=spread/swap monitor1
 period_flags=0
-create_time=1522599527
+create_time=1524221139
 description=Current Spread :
 color=55295
 font=Arial Black
@@ -524,8 +525,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor2
 period_flags=0
-create_time=1522599527
-description=127
+create_time=1524221139
+description=39
 color=55295
 font=Arial Black
 fontsize=9
@@ -544,7 +545,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor3
 period_flags=0
-create_time=1522599527
+create_time=1524221139
 description=Buy Swap :
 color=16711680
 font=Arial Black
@@ -564,8 +565,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor4
 period_flags=0
-create_time=1522599527
-description=0.80
+create_time=1524221139
+description=-7.20
 color=16711680
 font=Arial Black
 fontsize=9
@@ -584,7 +585,7 @@ y_distance=2
 type=23
 object_name=spread/swap monitor5
 period_flags=0
-create_time=1522599527
+create_time=1524221139
 description=Sell Swap :
 color=255
 font=Arial Black
@@ -604,8 +605,8 @@ y_distance=2
 type=23
 object_name=spread/swap monitor6
 period_flags=0
-create_time=1522599527
-description=-9.36
+create_time=1524221139
+description=0.64
 color=255
 font=Arial Black
 fontsize=9
