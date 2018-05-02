@@ -1,10 +1,10 @@
 <chart>
 id=131694978559050881
 symbol=USDJPY_
-period=60
-leftpos=2006
+period=15
+leftpos=2438
 digits=3
-scale=8
+scale=4
 graph=1
 fore=0
 grid=0

@@ -1,10 +1,10 @@
 <chart>
 id=131694978911483382
 symbol=GBPUSD_
-period=60
-leftpos=2119
+period=240
+leftpos=1994
 digits=5
-scale=32
+scale=16
 graph=1
 fore=0
 grid=0
@@ -37,7 +37,7 @@ askline_color=255
 stops_color=255
 
 <window>
-height=271
+height=247
 fixed_height=0
 <indicator>
 name=main
@@ -195,7 +195,7 @@ show_data=1
 </window>
 
 <window>
-height=50
+height=74
 fixed_height=0
 <indicator>
 name=Relative Strength Index
@@ -211,6 +211,8 @@ levels_style=0
 levels_weight=1
 level_0=81.00000000
 level_1=19.00000000
+level_2=75.00000000
+level_3=25.00000000
 period_flags=0
 show_data=1
 </indicator>

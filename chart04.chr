@@ -2,9 +2,9 @@
 id=131694978282774705
 symbol=GBPJPY_
 period=60
-leftpos=2018
+leftpos=3081
 digits=3
-scale=8
+scale=16
 graph=1
 fore=0
 grid=0
@@ -211,6 +211,8 @@ levels_style=0
 levels_weight=1
 level_0=81.00000000
 level_1=19.00000000
+level_2=25.00000000
+level_3=75.00000000
 period_flags=0
 show_data=1
 </indicator>
