@@ -1,10 +1,11 @@
 <chart>
-id=131694978282774705
-symbol=GBPJPY_
+id=131694978911483382
+comment=Only Run KRC Broker
+symbol=GBPUSD_
 period=60
-leftpos=3191
-digits=3
-scale=4
+leftpos=2442
+digits=5
+scale=16
 graph=1
 fore=0
 grid=0
@@ -19,10 +20,10 @@ days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=78
-window_top=78
-window_right=1378
-window_bottom=621
+window_left=182
+window_top=182
+window_right=1482
+window_bottom=725
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -37,7 +38,7 @@ askline_color=255
 stops_color=255
 
 <window>
-height=271
+height=247
 fixed_height=0
 <indicator>
 name=main
@@ -195,7 +196,7 @@ show_data=1
 </window>
 
 <window>
-height=50
+height=74
 fixed_height=0
 <indicator>
 name=Relative Strength Index
@@ -211,8 +212,8 @@ levels_style=0
 levels_weight=1
 level_0=81.00000000
 level_1=19.00000000
-level_2=25.00000000
-level_3=75.00000000
+level_2=75.00000000
+level_3=25.00000000
 period_flags=0
 show_data=1
 </indicator>
