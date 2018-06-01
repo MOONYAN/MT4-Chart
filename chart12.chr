@@ -1,11 +1,11 @@
 <chart>
-id=131694978911483382
+id=131694978582332890
 comment=Only Run KRC Broker
-symbol=GBPUSD_
+symbol=USDJPY_
 period=60
-leftpos=2442
-digits=5
-scale=16
+leftpos=2608
+digits=3
+scale=8
 graph=1
 fore=0
 grid=0
@@ -20,10 +20,10 @@ days=1
 descriptions=1
 shift_size=20
 fixed_pos=0
-window_left=182
-window_top=182
-window_right=1482
-window_bottom=725
+window_left=130
+window_top=130
+window_right=1430
+window_bottom=673
 window_type=1
 background_color=0
 foreground_color=16777215
@@ -38,46 +38,10 @@ askline_color=255
 stops_color=255
 
 <window>
-height=247
+height=271
 fixed_height=0
 <indicator>
 name=main
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=KRC\BombRemovable3
-flags=339
-window_num=0
-<inputs>
-FontSize=36
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=SpreadIndicator
-flags=339
-window_num=0
-<inputs>
-LabelColor=16777215
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
 </indicator>
 <indicator>
 name=Custom Indicator
@@ -193,10 +157,31 @@ weight_2=0
 period_flags=0
 show_data=1
 </indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\PriceViewer
+flags=339
+window_num=0
+<inputs>
+FontSize=32
+FontName=Trebuchet MS
+FontColor=16777215
+PriceWidth=1
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=0
+style_0=0
+weight_0=0
+period_flags=0
+show_data=1
+</indicator>
 </window>
 
 <window>
-height=74
+height=50
 fixed_height=0
 <indicator>
 name=Relative Strength Index
@@ -212,8 +197,6 @@ levels_style=0
 levels_weight=1
 level_0=81.00000000
 level_1=19.00000000
-level_2=75.00000000
-level_3=25.00000000
 period_flags=0
 show_data=1
 </indicator>

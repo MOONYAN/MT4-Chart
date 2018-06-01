@@ -2,9 +2,9 @@
 id=131694978252461886
 symbol=XAUUSD_
 period=60
-leftpos=2434
+leftpos=2605
 digits=2
-scale=16
+scale=8
 graph=1
 fore=0
 grid=0
@@ -41,42 +41,6 @@ height=271
 fixed_height=0
 <indicator>
 name=main
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=KRC\BombRemovable3
-flags=339
-window_num=0
-<inputs>
-FontSize=36
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
-name=SpreadIndicator
-flags=339
-window_num=0
-<inputs>
-LabelColor=16777215
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
 </indicator>
 <indicator>
 name=Custom Indicator
@@ -195,11 +159,14 @@ show_data=1
 <indicator>
 name=Custom Indicator
 <expert>
-name=KRC\BombRemovable3
+name=Owen\PriceViewer
 flags=339
 window_num=0
 <inputs>
-FontSize=36
+FontSize=32
+FontName=Trebuchet MS
+FontColor=16777215
+PriceWidth=1
 </inputs>
 </expert>
 shift_0=0

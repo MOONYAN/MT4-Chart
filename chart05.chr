@@ -2,9 +2,9 @@
 id=131705159426312476
 symbol=XAUUSD_
 period=15
-leftpos=3681
+leftpos=4469
 digits=2
-scale=8
+scale=4
 graph=1
 fore=0
 grid=0
@@ -12,7 +12,7 @@ volume=0
 scroll=1
 shift=1
 ohlc=1
-one_click=1
+one_click=0
 one_click_btn=1
 askline=0
 days=1
@@ -94,24 +94,6 @@ show_data=1
 <indicator>
 name=Custom Indicator
 <expert>
-name=KRC\BombRemovable3
-flags=339
-window_num=0
-<inputs>
-FontSize=36
-</inputs>
-</expert>
-shift_0=0
-draw_0=0
-color_0=0
-style_0=0
-weight_0=0
-period_flags=0
-show_data=1
-</indicator>
-<indicator>
-name=Custom Indicator
-<expert>
 name=Mr. fatcat\signal001
 flags=339
 window_num=0
@@ -182,6 +164,27 @@ draw_0=12
 color_0=65535
 style_0=0
 weight_0=1
+period_flags=0
+show_data=1
+</indicator>
+<indicator>
+name=Custom Indicator
+<expert>
+name=Owen\PriceViewer
+flags=339
+window_num=0
+<inputs>
+FontSize=32
+FontName=Trebuchet MS
+FontColor=16777215
+PriceWidth=1
+</inputs>
+</expert>
+shift_0=0
+draw_0=0
+color_0=0
+style_0=0
+weight_0=0
 period_flags=0
 show_data=1
 </indicator>

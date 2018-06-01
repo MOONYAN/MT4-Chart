@@ -2,9 +2,9 @@
 id=131711186289337902
 symbol=XAUUSD_
 period=60
-leftpos=2418
+leftpos=2690
 digits=2
-scale=8
+scale=16
 graph=1
 fore=0
 grid=0
@@ -26,10 +26,10 @@ window_bottom=488
 window_type=1
 background_color=0
 foreground_color=16777215
-barup_color=65280
+barup_color=255
 bardown_color=65280
-bullcandle_color=0
-bearcandle_color=16777215
+bullcandle_color=255
+bearcandle_color=65280
 chartline_color=65280
 volumes_color=3329330
 grid_color=10061943
@@ -37,7 +37,7 @@ askline_color=255
 stops_color=255
 
 <window>
-height=131
+height=104
 fixed_height=0
 <indicator>
 name=main
@@ -45,11 +45,14 @@ name=main
 <indicator>
 name=Custom Indicator
 <expert>
-name=KRC\BombRemovable3
+name=Owen\PriceViewer
 flags=339
 window_num=0
 <inputs>
-FontSize=36
+FontSize=32
+FontName=Trebuchet MS
+FontColor=16777215
+PriceWidth=1
 </inputs>
 </expert>
 shift_0=0
@@ -63,7 +66,7 @@ show_data=1
 </window>
 
 <window>
-height=34
+height=46
 fixed_height=0
 <indicator>
 name=Average Directional Movement Index
@@ -84,7 +87,7 @@ show_data=1
 </window>
 
 <window>
-height=35
+height=50
 fixed_height=0
 <indicator>
 name=Average True Range
